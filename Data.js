@@ -7,6 +7,7 @@ export const categories = [
 
 
   //   category 3 biodegradable garbage bags
+  
   {
     id: "biodegradable-garbage-bags",
     name: "Biodegradable Garbage Bags",
