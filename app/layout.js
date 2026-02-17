@@ -3,7 +3,7 @@ import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
 import Stickybutton from "@/components/Landingpage/Stickybutton";
-import Script from "next/script";
+
 
 // Roboto
 const roboto = Roboto({
