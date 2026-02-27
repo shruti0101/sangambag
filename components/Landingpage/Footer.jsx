@@ -137,6 +137,36 @@ Biomedical garbage bags
               </a>
             </li>
 
+{/* other */}
+   <li>
+              <a
+                href="https://sharpcontainermanufacturer.com/"
+                className="hover:text-yellow-500"
+              >
+
+Sharp Container
+              </a>
+            </li>
+
+               <li>
+              <a
+                href="https://wringertrolleymanufacturer.com/"
+                className="hover:text-yellow-500"
+              >
+
+Wringer Trolley
+              </a>
+            </li>
+
+               <li>
+              <a
+                href="https://plasticdustbinmanufacturer.com/"
+                className="hover:text-yellow-500"
+              >
+
+Plastic Dustbin
+              </a>
+            </li>
         
           </ul>
         </div>
@@ -148,7 +178,7 @@ Biomedical garbage bags
               Trust Elite Certificate
             </h3>
             <p className="text-sm leading-relaxed">
-             We are proud to present the TrustElite Certificate of Excellence to Polywell, recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers.
+             We are proud to present the TrustElite Certificate of Excellence to Sangam Plastic Industries Pvt. Ltd., recognizing their commitment to exceptional customer service, outstanding business practices, and a dedication to building trust with their customers.
             </p>
           </div>
           <div className="flex justify-center md:justify-end">

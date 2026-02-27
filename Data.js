@@ -237,7 +237,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/Printed Biodegradable Garbage Bags, Capacity_ 2 Kg.webp",
+      "src": "/bag/product/1.webp",
       "alt": "Printed Biodegradable Garbage Bags 2 Kg Capacity"
     }
   ]

@@ -68,7 +68,7 @@ const accordionData = [
           Industries Pvt. Ltd for dependable disposable waste solutions.
         </p>
 
-        <Link className="px-4 py-2 rounded-md bg-emerald-500 text-white hover:bg-emerald-600 text-lg">
+        <Link href="/products" className="px-4 py-2 rounded-md bg-emerald-500 text-white hover:bg-emerald-600 text-lg">
           Explore Disposable Bags
         </Link>
       </>
@@ -149,9 +149,9 @@ const accordionData = [
                 </div>
 
                 {active === i && (
-                  <p className="text-gray-300 mt-3 text-sm">
-                    {item.desc}
-                  </p>
+                 <div className="text-gray-300 mt-3 text-sm">
+  {item.desc}
+</div>
                 )}
               </div>
             ))}

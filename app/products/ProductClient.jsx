@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Page = () => {
-  const [visibleCount, setVisibleCount] = useState(9);
+ 
 
   // Flatten all products from all categories
   const allProducts = categories.flatMap((cat) =>
@@ -28,7 +28,7 @@ const Page = () => {
       {/* Products Grid */}
       <div className="max-w-7xl px-10 py-10 mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {allProducts.slice(0, visibleCount).map((product) => (
+          {allProducts.map((product) => (
             <Link
               key={product.id}
               href={`/products/${product.id}`}
@@ -43,7 +43,7 @@ const Page = () => {
                 className="w-full h-75 object-cover"
               />
               <div className="p-3">
-                <h2 className="text-lg font-semibold">{product.name}</h2>
+                <h2 className="text-lg text-center font-semibold">{product.name}</h2>
                 {product.price && (
                   <p className="text-gray-600">{product.price}</p>
                 )}
@@ -53,16 +53,7 @@ const Page = () => {
         </div>
 
         {/* Load More Button */}
-        {visibleCount < allProducts.length && (
-          <div className="text-center mt-10">
-            <button
-              onClick={() => setVisibleCount((prev) => prev + 6)}
-              className="inline-block px-6 cursor-pointer py-3 bg-blue-600 text-white font-semibold rounded-md shadow hover:bg-blue-700 transition"
-            >
-              Load More
-            </button>
-          </div>
-        )}
+    
       </div>
 
       

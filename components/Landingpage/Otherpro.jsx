@@ -10,7 +10,7 @@ const products = [
   },
   {
     title: "Sharp Container",
-    image: "/bag/sharp-container.webp",
+    image: "/bag/Sharp-Container.webp",
     href:"https://sharpcontainermanufacturer.com/"
   },
   {
