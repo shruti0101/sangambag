@@ -8,31 +8,31 @@ const testimonials = [
     text: "We’ve been sourcing garbage bags from Sangam Plastic Industries Pvt. Ltd for over two years. The quality is consistently excellent, and the durability truly stands out. Highly recommended for bulk buyers.",
     name: "Operations Manager",
     designation: "Facility Management Company",
-    img: "/test1.webp",
+  
   },
   {
     text: "Their hospital garbage bags meet all compliance standards and are extremely reliable. The color-coding and strength make biomedical waste management much safer and easier.",
     name: "Admin Head",
     designation: "Multi-Specialty Hospital",
-    img: "/test2.webp",
+  
   },
   {
     text: "The disposable bags are strong, leak-proof, and available in the exact sizes we need. Their timely delivery and customer service are impressive.",
     name: "Procurement Officer",
     designation: "Corporate Office",
-    img: "/test3.webp",
+   
   },
   {
     text: "We use their heavy-duty garbage bags for industrial waste, and the performance is outstanding. No tearing, no leakage—just dependable quality.",
     name: "Plant Supervisor",
     designation: "Manufacturing Unit",
-    img: "/test4.webp",
+   
   },
   {
     text: "Sangam Plastic Industries Pvt. Ltd provides cost-effective waste management solutions without compromising on quality. A trustworthy long-term partner for our business.",
     name: "Director",
     designation: "Cleaning Services Company",
-    img: "/test1.webp",
+   
   },
 ];
 
@@ -89,11 +89,7 @@ export default function TestimonialSlider() {
 
             {/* Profile */}
             <div className="flex flex-col items-center">
-              <img
-                src={current.img}
-                alt={current.name}
-                className="w-16 h-16 rounded-full border-4 border-[#176BB0] shadow-md mb-2"
-              />
+           
               <h4 className="text-lg font-semibold">{current.name}</h4>
             </div>
           </motion.div>
