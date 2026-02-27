@@ -32,7 +32,7 @@ const testimonials = [
     text: "Sangam Plastic Industries Pvt. Ltd provides cost-effective waste management solutions without compromising on quality. A trustworthy long-term partner for our business.",
     name: "Director",
     designation: "Cleaning Services Company",
-    img: "/test5.webp",
+    img: "/test1.webp",
   },
 ];
 

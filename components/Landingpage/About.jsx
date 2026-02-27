@@ -2,10 +2,139 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Reveal from "./Reveal";
+import {
+  Building2,
+  Stethoscope,
+  ShoppingCart,
+  Store,
+  Warehouse,
+} from "lucide-react";
+import Addons from "./Addons";
 const About = () => {
+
+
+
+
+  // who we work with data
+
+  const partners = [
+  {
+    title: "Government Hospital Tenders Bidders & Project Contractors",
+    icon: Building2,
+  },
+  {
+    title: "Private Hospital Purchase & Procurement Teams",
+    icon: Stethoscope,
+  },
+  {
+    title: "GeM Portal Institutional Procurement Buyers",
+    icon: ShoppingCart,
+  },
+  {
+    title: "Retailers & Wholesale Distributors",
+    icon: Store,
+  },
+  {
+    title: "Municipal Corporations & Urban Local Bodies",
+    icon: Warehouse,
+  },
+
+   {
+    title: "Facility Management & Waste Handling Companies",
+    icon: Warehouse,
+  },
+];
+
+
+
+
+
+
   return (
     <div>
-      <section style={{backgroundImage:"url(/bag/catbg.webp)"}} className=" bg-cover">
+
+
+
+
+
+{/* who we work with section*/}
+
+
+<section className="relative bg-gradient-to-b from-[#f8fafc] to-white py-15  px-4 sm:px-6 overflow-hidden">
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
+
+    {/* LEFT */}
+    <div>
+
+      <span className="inline-block mb-4 px-4 py-1.5 text-xs font-semibold tracking-wider text-green-700 bg-green-50 rounded-full border border-green-100">
+        OUR PROCUREMENT PARTNERS
+      </span>
+
+      <h2 className="text-3xl sm:text-4xl font-bold text-[#0B2545] leading-tight mb-5">
+        Trusted by Institutional Buyers 
+        & Healthcare Procurement Teams
+      </h2>
+
+      <p className="text-lg text-gray-600 mb-8 max-w-xl">
+        Polywell supplies certified biomedical disposal solutions to 
+        hospitals, government bodies, and bulk procurement partners 
+        across India.
+      </p>
+
+      {/* GRID */}
+      <div className="grid sm:grid-cols-2 gap-4">
+        {partners.map((partner, index) => (
+          <div
+            key={index}
+            className="group flex items-start gap-4 p-4 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+          >
+            <div className="w-11 h-11 flex items-center justify-center rounded-lg bg-green-50 border border-green-100">
+              <partner.icon className="w-5 h-5 text-green-700" />
+            </div>
+
+            <p className="text-sm sm:text-base font-medium text-gray-800 leading-snug">
+              {partner.title}
+            </p>
+          </div>
+        ))}
+      </div>
+
+      {/* CTA */}
+      <Link href="/contact" className="mt-10 inline-flex items-center gap-2 px-7 py-3 text-base font-semibold text-white bg-[#0B2545] rounded-full shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">
+        Become a Bulk Procurement Partner
+        <span className="text-lg">→</span>
+      </Link>
+    </div>
+
+    {/* RIGHT */}
+    <div className="relative">
+      <div className="overflow-hidden rounded-2xl shadow-xl">
+        <Image
+          src="/whowework.avif"
+          alt="Healthcare Procurement"
+          width={900}
+          height={900}
+          className="w-full h-auto object-cover"
+        />
+      </div>
+
+      {/* FLOAT CARD */}
+      <div className="absolute bottom-5 left-5 bg-white/80 backdrop-blur-md border border-gray-200 shadow-lg rounded-xl px-5 py-3">
+        <p className="text-sm font-semibold text-[#0B2545]">
+          Serving 500+ Healthcare Institutions
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<Addons/>
+
+
+      {/* <section style={{backgroundImage:"url(/bag/catbg.webp)"}} className=" bg-cover">
         <div className="max-w-7xl mx-auto  py-5 md:py-20">
 
           <Reveal>
@@ -36,7 +165,7 @@ With modern manufacturing facilities in Delhi, advanced machinery, and a skilled
           </div>
           </Reveal>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

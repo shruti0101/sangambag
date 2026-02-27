@@ -5,6 +5,7 @@ import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { ArrowRight,  } from "lucide-react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function GarbageBagSection() {
   const [active, setActive] = useState(null);
@@ -35,9 +36,9 @@ const accordionData = [
           our garbage bags deliver reliable performance every time.
         </p>
 
-        <button className="px-4 py-2 rounded-md bg-emerald-500 text-white hover:bg-emerald-600 text-lg">
+        <Link href="/products" className="px-4 py-2 rounded-md bg-emerald-500 text-white hover:bg-emerald-600 text-lg">
           Explore Garbage Bags
-        </button>
+        </Link>
       </>
     ),
   },
@@ -67,9 +68,9 @@ const accordionData = [
           Industries Pvt. Ltd for dependable disposable waste solutions.
         </p>
 
-        <button className="px-4 py-2 rounded-md bg-emerald-500 text-white hover:bg-emerald-600 text-lg">
+        <Link className="px-4 py-2 rounded-md bg-emerald-500 text-white hover:bg-emerald-600 text-lg">
           Explore Disposable Bags
-        </button>
+        </Link>
       </>
     ),
   },
@@ -98,9 +99,9 @@ const accordionData = [
           durable, and regulation-compliant garbage bag solutions.
         </p>
 
-        <button className="px-4 py-2 rounded-md bg-emerald-500 text-white hover:bg-emerald-600 text-lg">
+        <Link href="/products" className="px-4 py-2 rounded-md bg-emerald-500 text-white hover:bg-emerald-600 text-lg">
           Explore Hospital Garbage Bags
-        </button>
+        </Link>
       </>
     ),
   },
@@ -108,7 +109,7 @@ const accordionData = [
 
 
   return (
-    <section className="w-full py-20 px-6 md:px-16 lg:px-20 bg-gradient-to-r from-[#062B22] via-[#083F33] to-[#021B15] text-white relative overflow-hidden">
+    <section className="w-full py-8 px-6 md:px-16 lg:px-20 bg-gradient-to-r from-[#062B22] via-[#083F33] to-[#021B15] text-white relative overflow-hidden">
 
       <div className=" mx-auto grid md:grid-cols-2 gap-14 items-center">
 
@@ -162,7 +163,7 @@ const accordionData = [
                         whileTap={{ scale: 0.95 }}
                         className="relative flex  mt-10 items-center gap-2 bg-yellow-500 text-white px-6 py-4 cursor-pointer rounded-xl font-medium overflow-hidden"
                       >
-                        <span className="relative z-10">Explore Garbage Bags</span>
+                        <Link href="/products"className="relative z-10">Explore Garbage Bags</Link>
                         <ArrowRight size={19} />
             
                         {/* Shine Effect */}
@@ -178,7 +179,7 @@ const accordionData = [
                       </motion.button>
 
           
-        <Image width={300} height={300} src="/bag/binwhite.png" className="absolute bottom-10 left-60 "></Image>
+        <Image width={300} height={300} src="/bag/binwhite.png" alt="Garbage Bags" className="absolute bottom-0 left-100 "></Image>
 
         </div>
 
@@ -187,9 +188,9 @@ const accordionData = [
           <Image
             src="/bag/dedicated.png"
             alt="Factory"
-            width={600}
+            width={520}
             height={400}
-            className="object-cover ml-10 "
+            className="object-contain ml-10 "
           />
 
       

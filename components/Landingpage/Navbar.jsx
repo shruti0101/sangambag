@@ -76,14 +76,14 @@ export default function Navbar() {
 
           {/* PRODUCTS MEGA MENU */}
           <div className="relative group">
-            <button className="flex items-center gap-1">
+            <Link href="/products" className="flex items-center gap-1">
               Our Products <ChevronDown size={16} />
-            </button>
+            </Link>
 
             <div className="absolute top-full left-1/2 -translate-x-1/2 hidden group-hover:flex 
             bg-white backdrop-blur-xl 
             rounded-2xl shadow-2xl border border-white/20 
-            z-50 overflow-hidden mt-1"
+            z-50 overflow-hidden "
             style={{ width: 950 }}
             >
               {/* LEFT */}
@@ -156,8 +156,9 @@ export default function Navbar() {
             hover:scale-110 transition-all duration-300"
           >
             <FaWhatsapp size={22} />
-          </a>
+          </a> 
       <motion.button
+      onClick={() => setIsFormOpen(true)}
             whileHover={{ scale: 1.08 }}
             whileTap={{ scale: 0.95 }}
             className="relative flex items-center gap-3 bg-yellow-500 text-black px-6 py-3 rounded-xl font-medium overflow-hidden"

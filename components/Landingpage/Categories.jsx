@@ -2,27 +2,33 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
+
 
 const data = [
   {
     title: "Plastic Disposable Garbage Bag",
     desc: "Bags designed for segregation of household waste via optical colour sorting.",
-    image: "/bag/pro1.png"
+    image: "/bag/pro1.png",
+    href:"/categories/disposable-garbage-bags"
   },
   {
     title: "Biodegradable Garbage Bags",
     desc: "Bags designed for institutional use, easy to dispense one by one.",
-    image: "/bag/pro2.png"
+    image: "/bag/pro2.png",
+    href:"/categories/biodegradable-garbage-bags"
   },
   {
     title: "Plastic Small Degradable Garbage Bag",
     desc: "Eco friendly biodegradable garbage bags for sustainable waste disposal.",
-    image: "/bag/pro3.png"
+    image: "/bag/pro3.png",
+    href:"/categories/disposable-garbage-bags"
   },
   {
     title: "Compostable Biodegradable garbage bags",
     desc: "Heavy duty plastic garbage bags for construction and commercial use.",
-    image: "/bag/pro4.png"
+    image: "/bag/pro4.png",
+    href:"/categories/biomedical-garbage-bags"
   },
 ];
 
@@ -30,7 +36,7 @@ export default function ProductCards() {
   return (
     <section
       style={{ backgroundImage: "url(/bag/aboutbg.webp)" }}
-      className="w-full bg-contain bg-[#F8F9F4] bg-no-repeat relative py-20"
+      className="w-full bg-contain bg-[#F8F9F4] bg-no-repeat relative py-12"
     >
 
  <div className="max-w-7xl mx-auto px-6 mb-14 flex items-center justify-between">
@@ -39,9 +45,9 @@ export default function ProductCards() {
     Our Products
   </h2>
 
-  <button className="border-2 bg-[#557C73] text-[#557C73] px-6 py-3 rounded-full font-medium hover:bg-[#557C73] text-white transition duration-300">
+  <Link href="/products" className="border-2 bg-[#557C73] text-[#557C73] px-6 py-3 rounded-full font-medium hover:bg-[#557C73] text-white transition duration-300">
     Explore All Products
-  </button>
+  </Link>
 
 </div>
 
@@ -108,7 +114,7 @@ export default function ProductCards() {
               </div>
 
               {/* CTA */}
-              <div className="flex  items-center justify-between mt-10">
+              <Link href={item.href} className="flex  items-center justify-between mt-10">
                 <p className="text-[#557C73] border-2 p-2 capitalize text-md tracking-wider font-medium">
                   explore product
                 </p>
@@ -118,7 +124,7 @@ export default function ProductCards() {
                     east
                   </span>
                 </div>
-              </div>
+              </Link>
 
             </div>
 

@@ -36,9 +36,9 @@ const industries = [
 
 export default function IndustriesSection() {
   return (
-    <section className="w-full relative py-18 px-6 md:px-16 lg:px-24 bg-gradient-to-b from-white to-gray-50">
+    <section className="w-full relative py-10 px-6 md:px-16 lg:px-24 bg-gradient-to-b from-white to-gray-50">
     
-        <Image width={300} height={300} src="/bag/bin2bg.png" className="absolute top-10 right-20 "></Image>
+        <Image alt="bin" width={300} height={300} src="/bag/bin2bg.png" className="absolute top-10 right-20 "></Image>
     
       <div className="max-w-7xl mx-auto text-center mb-14">
         <p className="text-green-600 font-semibold uppercase text-sm mb-4">

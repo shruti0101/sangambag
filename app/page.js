@@ -13,20 +13,24 @@ import Formsection from "@/components/Landingpage/Formsection";
 import Popup from "@/components/Popup";
 // import CityPage from "../components/City";
 import Dedicated from "@/components/Landingpage/Dedicated";
+import Otherproduct from "@/components/Landingpage/Otherpro";
+import Pointer from "@/components/Landingpage/Pointer";
 
 
 export default function Home() {
   return (
     <>
-      {/* <Popup></Popup> */}
+      <Popup></Popup>
       <Hero />
       <Cta></Cta>
       <About />
-         
+    <Pointer></Pointer>
       <Categories />
       <Countup />
         <Whoweare />
+           <Otherproduct></Otherproduct>
    <Dedicated></Dedicated>
+
   <Formsection></Formsection>
          <Process></Process>
       <Whychoose />

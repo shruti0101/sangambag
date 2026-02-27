@@ -5,7 +5,7 @@ import { ArrowRight,  } from "lucide-react";
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-
+import Link from "next/link";
 export default function HeroSection() {
 
 
@@ -161,7 +161,7 @@ useEffect(() => {
             whileTap={{ scale: 0.95 }}
             className="relative flex items-center gap-2 bg-yellow-500 text-black px-6 py-3 rounded-xl font-medium overflow-hidden"
           >
-            <span className="relative z-10">Explore Our Range</span>
+            <Link href="/products" className="relative z-10">Explore Garbage Bags</Link>
             <ArrowRight size={18} />
 
             {/* Shine Effect */}
@@ -177,12 +177,12 @@ useEffect(() => {
           </motion.button>
 
           {/* Glass Button */}
-          <motion.button
-            whileHover={{ scale: 1.05 }}
+          <Link href="/contact"
+          
             className="bg-white/10 text-white px-6 py-3 rounded-xl backdrop-blur-lg border border-yellow-500"
           >
-            Sustainability Report
-          </motion.button>
+            Contact Us
+          </Link>
         </motion.div>
       </div>
 

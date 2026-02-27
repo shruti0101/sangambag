@@ -14,7 +14,7 @@ export default function ContactForm() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsOpen(true), 2000);
+    const timer = setTimeout(() => setIsOpen(true), 5000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -29,8 +29,8 @@ export default function ContactForm() {
 
     try {
       const formData = {
-        platform: "SBS Machinery Popup Form",
-        platformEmail: "machinerysbs@gmail.com",
+        platform: "Sangam Garbage Bag popup Form",
+        platformEmail: "info@polywell.co.in",
         name,
         phone,
         email,
@@ -55,7 +55,7 @@ Contact: ${phone}`;
 
         setTimeout(() => {
           window.open(
-            `https://wa.me/917042039777?text=${encodeURIComponent(
+            `https://wa.me/919810316441?text=${encodeURIComponent(
               whatsappText
             )}`,
             "_blank"
@@ -84,18 +84,21 @@ Contact: ${phone}`;
     <div className="fixed inset-0 flex items-center justify-center bg-black/40 z-50">
       <div
         className="relative rounded-3xl shadow-2xl p-10 max-w-sm md:max-w-2xl text-white bg-cover bg-center"
-        style={{ backgroundImage: "url(/formbg.webp)" }}
+        style={{ backgroundImage: "url(/bag/try2.jpg)" }}
       >
+
+
+
         {/* Close button */}
         <button
-          className="absolute cursor-pointer top-4 right-4 text-black hover:text-red-500 text-xl"
+          className="absolute cursor-pointer top-4 right-4 text-white hover:text-red-500 text-xl"
           onClick={handleClose}
         >
           ✕
         </button>
 
         {/* Title */}
-        <h2 className="text-center text-black text-xl md:text-3xl font-semibold tracking-wide">
+        <h2 className="text-center text-white text-xl md:text-3xl font-semibold tracking-wide">
           Get In Touch With Us
         </h2>
         <div className="w-28 h-[4px] bg-blue-600 mx-auto mt-3 mb-8 rounded-full"></div>
@@ -112,46 +115,22 @@ Contact: ${phone}`;
               onChange={(e) => setName(e.target.value)}
               disabled={loading}
             />
-
-            <select
-              name="machine"
-              className="w-1/2 p-3 rounded-md text-black text-sm border border-black border-2 focus:outline-none bg-blue-50"
-              required
-              value={product}
-              onChange={(e) => setProduct(e.target.value)}
-              disabled={loading}
-            >
-              <option value="">Select Machine</option>
-              <option value="Paper Cup Making Machine">
-                Paper Cup Making Machine
-              </option>
-              <option value="Paper Die Cutting Machine">
-                Paper Die Cutting Machine
-              </option>
-              <option value="Paper Plate Making Machine">
-                Paper Plate Making Machine
-              </option>
-              <option value="Bio-degradable Bag Making Machine">
-                Bio-degradable Bag Making Machine
-              </option>
-              <option value="Flexoprinting Machine">Flexoprinting Machine</option>
-              <option value="Non Woven Bag Making Machines">
-                Non Woven Bag Making Machines
-              </option>
-              <option value="Offset Bag Printing Machine">
-                Offset Bag Printing Machine
-              </option>
-              <option value="Momo Making Machine">Momo Making Machine</option>
-              <option value="Noodle Making Machine">Noodle Making Machine</option>
-            </select>
+     <select
+                  name="products"
+                  required
+                  disabled={loading}
+                  defaultValue=""
+                  className="w-1/2 p-3 rounded-md text-black text-sm border-2 focus:outline-none bg-blue-50"
+                >
+                  <option value="">Select Product</option>
+              <option value="Black Garbage Bags">Biodegradable Garbage Bags</option>
+                  <option value="Green Garbage Bags">Disposable Garbage Bags</option>
+                  <option value="Biomedical Waste Bags">Biomedical garbage bags</option>
+                </select>
           </div>
 
           <div className="flex items-center bg-white rounded-md border border-black border-2 overflow-hidden">
-            <img
-              src="/flag.webp"
-              alt="flag"
-              className="w-6 h-4 ml-2 object-cover"
-            />
+            
             <span className="text-lg">🇮🇳</span>
             <input
               type="tel"

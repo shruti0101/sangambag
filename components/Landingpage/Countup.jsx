@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Reveal from "./Reveal";
+import Link from "next/link";
 
 export default function HighQualityCTA() {
   return (
@@ -51,6 +52,8 @@ export default function HighQualityCTA() {
               </div>
 
               {/* BUTTON */}
+              <Link href="contact">
+              
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -72,6 +75,7 @@ export default function HighQualityCTA() {
                   className="absolute top-0 left-0 w-1/2 h-full bg-white/40 skew-x-12"
                 />
               </motion.button>
+              </Link>
 
             </div>
           </div>

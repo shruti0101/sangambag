@@ -2,20 +2,16 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-export default function ContactForm() {
-  const [isOpen, setIsOpen] = useState(false);
+export default function ContactForm({ isOpen, onClose }) {
+
   const [submitted, setSubmitted] = useState(false);
   const [successMessage, setSuccessMessage] = useState("");
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsOpen(true), 2000);
-    return () => clearTimeout(timer);
-  }, []);
-
   if (!isOpen) return null;
 
-  const handleClose = () => setIsOpen(false);
+  const handleClose = () => onClose();
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -34,7 +30,7 @@ export default function ContactForm() {
       const { data } = await axios.post(
         "https://brandbnalo.com/api/form/add",
         {
-          platform: "Sangam Garbage Bag Popup Form",
+          platform: "Sangam Garbage Bag enquiry Form",
           platformEmail: "info@polywell.co.in",
           name,
           phone,
@@ -57,7 +53,7 @@ Contact: ${phone}`;
 
         setTimeout(() => {
           window.open(
-            `https://wa.me/+91-9810316441?text=${encodeURIComponent(
+            `https://wa.me/+919810316441?text=${encodeURIComponent(
               whatsappText
             )}`,
             "_blank"
@@ -94,7 +90,7 @@ Contact: ${phone}`;
             className="absolute cursor-pointer top-4 right-4 text-white hover:text-red-500 text-xl"
             onClick={handleClose}
           >
-            ✕
+            ✕ 
           </button>
 
           <h2 className="text-center text-white text-xl md:text-3xl font-semibold">

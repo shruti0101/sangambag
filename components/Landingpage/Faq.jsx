@@ -50,10 +50,10 @@ export default function FAQ() {
     <section className="py-16 relative px-4 md:px-8 lg:px-16 bg-white">
       {/* Heading */}
 
-<Image width={200} height={200} src="/bag/bin.webp" className="absolute top-0 right-10 "></Image>
+<Image alt="bin" width={200} height={200} src="/bag/bin.webp" className="absolute top-0 right-10 "></Image>
 
 
-<Image width={300} height={300} src="/bag/trash.png" className="absolute top-0 left-0 "></Image>
+<Image alt="erf" width={300} height={300} src="/bag/trash.png" className="absolute top-0 left-0 "></Image>
 
       <h2 className="text-4xl font-extrabold text-center mb-12 text-[#07342A]">
         Frequently Asked Questions

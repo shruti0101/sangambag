@@ -16,12 +16,12 @@ const Page = () => {
     <div>
       {/* Hero Section */}
       <section
-        style={{ backgroundImage: "url('/bg.webp')" }}
+        style={{ backgroundImage: "url('/bag/bgother.png')" }}
         className="w-full bg-cover bg-center h-[50vh]  md:h-[90vh] relative"
       >
         {/* <div className="absolute inset-0 bg-black opacity-10"></div> */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-cyan-600 bg-white p-2 text-2xl md:text-7xl font-bold z-10">All Products</h2>
+          <h2 className="text-green-600 bg-white p-2 text-2xl md:text-7xl font-bold z-10">All Products</h2>
         </div>
       </section>
 

@@ -203,7 +203,7 @@ hover:text-white transition-all duration-300 font-semibold"
 border-gray-300 hover:bg-gray-900 hover:text-white 
 transition-all duration-300 font-semibold"
               >
-                Download Datasheet
+                Download Brochure
               </a>
             </div>
           </div>
@@ -223,7 +223,7 @@ transition-all duration-300 font-semibold"
 
 
         {/* ===== DESCRIPTION ===== */}
-<section style={{backgroundImage:"url(/bag/descbg.png)"}} className="w-full bg-center p-20 bg-cover">
+<section style={{backgroundImage:"url(/bag/descbg.png)"}} className="w-full bg-center p-10 bg-cover">
 
   <div  className=" mt-10 max-w-4xl">
           <h2 className="text-3xl md:text-5xl font-semibold mb-6">Product Overview</h2>
