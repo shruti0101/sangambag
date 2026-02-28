@@ -1,6 +1,5 @@
 export const dynamic = "force-dynamic";
 
-import { serviceLocations } from "@/Data";
 
 import { categories } from "@/Data";
 import { client } from "@/lib/sanity";
@@ -13,7 +12,7 @@ async function getAllBlogs() {
 }
 
 export async function GET() {
-  const baseUrl = "https://garbagebagmanufacturer.in/"; 
+  const baseUrl = "https://garbagebagmanufacturer.in"; 
 
   // Flatten all products
   const allProducts = categories.flatMap((c) => c.products);
@@ -99,18 +98,18 @@ export async function GET() {
 
 
 
-    const locationUrls = serviceLocations
-  .map(
-    (loc) => `
-      <url>
-        <loc>${baseUrl}${loc.href}</loc>
-        <lastmod>${new Date().toISOString()}</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.7</priority>
-      </url>
-    `
-  )
-  .join("");
+//     const locationUrls = serviceLocations
+//   .map(
+//     (loc) => `
+//       <url>
+//         <loc>${baseUrl}${loc.href}</loc>
+//         <lastmod>${new Date().toISOString()}</lastmod>
+//         <changefreq>weekly</changefreq>
+//         <priority>0.7</priority>
+//       </url>
+//     `
+//   )
+//   .join("");
 
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -120,7 +119,7 @@ export async function GET() {
     ${categoryUrls}
     ${productUrls}
     ${blogUrls}
-    ${locationUrls}
+
 
   </urlset>`;
 
