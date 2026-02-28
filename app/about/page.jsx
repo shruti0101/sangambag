@@ -1,8 +1,8 @@
 import AboutClient from "./AboutClient";
 
 export const metadata = {
-  title: "About Us | Plastic Garbage Bag Manufacturer & Bulk Supplier",
-  description: "Learn about our journey as a leading plastic garbage bag manufacturer and bulk supplier in India. We specialize in heavy-duty, biodegradable, and customized garbage bags for industries, hospitals, offices, and wholesale buyers.",
+  title: "About Us – Leading Garbage Bag Manufacturer | Sangam Plastic Industries",
+  description: "Learn more about Sangam Plastic Industries – a trusted manufacturer and bulk supplier of premium quality garbage bags, committed to sustainable waste management and customer satisfaction.",
 };
 
 export default function AboutUsPage() {

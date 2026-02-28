@@ -1,8 +1,8 @@
 import BlogClient from "./BlogClient";
 
 export const metadata = {
-  title: "Latest Blog: Plastic Garbage Bag Manufacturer & Bulk Supplier",
-  description: "Read the latest blog on plastic garbage bag manufacturing and bulk supply solutions. Explore heavy-duty, biodegradable, and customized garbage bags for hospitals, industries, offices, and wholesale buyers across India.",
+  title: "Blogs – Waste Management Insights & Tips | Sangam Plastic Industries",
+  description: "Read expert articles, news, and practical tips about garbage bags, waste management solutions, recycling best practices, and sustainability from Sangam Plastic Industries.",
 };
 
 export default function AboutUsPage() {

@@ -1,8 +1,8 @@
 import ContactClient from "./ContactClient";
 
 export const metadata = {
-  title: "Contact Us | Plastic Garbage Bag Manufacturer & Bulk Supplier in India",
-  description: "Contact our team for bulk orders, pricing, and customized plastic garbage bags. Leading manufacturer and wholesale supplier offering heavy-duty, biodegradable, and industrial garbage bags across India.",
+  title: "Contact Us – Get in Touch | Sangam Plastic Industries",
+  description: "Contact Sangam Plastic Industries for enquiries about premium quality garbage bags, waste management solutions, bulk orders and customer support. We're here to help!",
 };
 
 export default function BlogsPage() {

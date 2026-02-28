@@ -2,8 +2,8 @@ import { Roboto, Poppins } from "next/font/google";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
-import Stickybutton from "@/components/Landingpage/Stickybutton";
 
+import Whatsapp from "@/components/Whatsapp";
 
 // Roboto
 const roboto = Roboto({
@@ -20,9 +20,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: " Plastic Garbage Bag Manufacturer &  Bulk Supplier | Sangam Plastic Industries",
+  title: " Plastic Garbage Bag Manufacturer & Bulk Supplier | Sangam Plastic Industries",
   description:
-    "Leading plastic garbage bag manufacturer in India offering HDPE & LDPE garbage bags in bulk. Durable, leak-proof, and custom sizes available.",
+    "Premium Quality Garbage Bags for Reliable Waste Management – Durable, Eco-Friendly & Bulk Supplies from Leading Manufacturer Since 1988.",
   icons: {
     icon: "/logo.webp",
   },
@@ -45,10 +45,10 @@ export default function RootLayout({ children }) {
 
       <body className={`${roboto.variable} ${poppins.variable} antialiased`}>
      
-    
+    <Whatsapp/>
         <LayoutWrapper>
         
-          <Stickybutton />
+      
           {children}
         </LayoutWrapper>
       </body>

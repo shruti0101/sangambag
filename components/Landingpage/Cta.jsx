@@ -28,7 +28,7 @@ const features = [
 
 export default function SustainabilityStrip() {
   return (
-    <section style={{backgroundImage:"url(/bag/bg5.png)"}} className="w-full bg-[#DFF5E8]   py-10  overflow-hidden">
+    <section style={{backgroundImage:"url(/bag/bg5.png)"}} className="w-full bg-[#DFF5E8]   py-10 hidden md:block overflow-hidden">
 
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
 

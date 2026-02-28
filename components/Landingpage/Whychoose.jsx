@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function WhyChooseSangam() {
   return (
-    <section className="w-full  bg-gradient-to-b from-white to-gray-100 py-16 ">
+    <section className="w-full px-5  bg-gradient-to-b from-white to-gray-100 py-16 ">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
         {/* LEFT CONTENT */}

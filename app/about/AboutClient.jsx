@@ -24,7 +24,7 @@ export default function AboutPage() {
 
 
       {/* ABOUT CONTENT */}
-      <section className="py-20 bg-[#F8FAFC]">
+      <section className="py-8 md:py-20 bg-[#F8FAFC]">
         <div className=" mx-auto px-6 md:px-16 grid md:grid-cols-2 gap-16 items-center">
 
 
@@ -78,7 +78,7 @@ export default function AboutPage() {
 
 
 {/* VISION */}
-<section className="py-24 bg-white">
+<section className="py-10 md:py-24 bg-white">
   <div className="max-w-7xl mx-auto px-6 relative  grid md:grid-cols-2 gap-16 items-center">
 
     {/* LEFT CONTENT */}
@@ -125,7 +125,7 @@ export default function AboutPage() {
 
        <img
         src="/bag/trash.png"
-        className=" absolute w-60 h-40 right-90 top-0  object-cover "
+        className="hidden md:block absolute w-60 h-40 right-90 top-0  object-cover "
       />
 
   </div>
@@ -135,7 +135,7 @@ export default function AboutPage() {
 
 
 {/* MISSION */}
-<section className="relative py-18 bg-[#F8FAFC] overflow-hidden">
+<section className="relative py-10 md:py-18 bg-[#F8FAFC] overflow-hidden">
 
 
   <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-green-200 rounded-full blur-[160px] opacity-40"></div>
@@ -221,7 +221,7 @@ export default function AboutPage() {
 
 
   {/* CORE VALUES */}
-<section className="py-16 bg-white">
+<section className="py-8 md:py-16 bg-white">
   <div className="w-full mx-auto px-6 md:px-16">
 
     <Reveal>

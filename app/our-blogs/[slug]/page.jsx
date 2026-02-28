@@ -94,7 +94,7 @@ export default async function BlogDetail({ params }) {
   return (
     <>
      <section
-  style={{ backgroundImage: "url('/testimonialbg.webp')" }}
+  style={{ backgroundImage: "url('/bag/bgother.png')" }}
   className="relative h-[50vh] md:h-[90vh] bg-center bg-cover overflow-hidden"
 >
   <div className="absolute inset-0 bg-black/40 z-[1]"></div>

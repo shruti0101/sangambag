@@ -5,34 +5,19 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 const testimonials = [
   {
-    text: "We’ve been sourcing garbage bags from Sangam Plastic Industries Pvt. Ltd for over two years. The quality is consistently excellent, and the durability truly stands out. Highly recommended for bulk buyers.",
-    name: "Operations Manager",
-    designation: "Facility Management Company",
-  
+    text: "We are incredibly impressed with Polywell's range of waste management solutions. The dustbins are robust and versatile, accommodating various types of waste with ease. Our municipality has benefited greatly from the efficient garbage rickshaws, which streamline waste collection in our urban areas. Polywell's wheelbarrows and garbage bags are essential tools in our daily operations.",
+    name: "GURDIP SINGH",
+    designation: "A.G International",
   },
   {
-    text: "Their hospital garbage bags meet all compliance standards and are extremely reliable. The color-coding and strength make biomedical waste management much safer and easier.",
-    name: "Admin Head",
-    designation: "Multi-Specialty Hospital",
-  
+    text: "Polywell's waste management products have transformed our operations. Their durable Pedal/Wheeled dustbins withstand heavy usage and harsh weather, ensuring efficient waste collection. The garbage rickshaws are a boon for our workers, enabling swift and organized garbage pickup. With Polywell's wheelbarrows and garbage bags, our waste management process has never been more effective.",
+    name: "SACHIN GUPTA",
+    designation: "PSV Biotech Pvt Ltd.",
   },
   {
-    text: "The disposable bags are strong, leak-proof, and available in the exact sizes we need. Their timely delivery and customer service are impressive.",
-    name: "Procurement Officer",
-    designation: "Corporate Office",
-   
-  },
-  {
-    text: "We use their heavy-duty garbage bags for industrial waste, and the performance is outstanding. No tearing, no leakage—just dependable quality.",
-    name: "Plant Supervisor",
-    designation: "Manufacturing Unit",
-   
-  },
-  {
-    text: "Sangam Plastic Industries Pvt. Ltd provides cost-effective waste management solutions without compromising on quality. A trustworthy long-term partner for our business.",
-    name: "Director",
-    designation: "Cleaning Services Company",
-   
+    text: "Polywell's commitment to excellence shines through in their waste management products. The dustbins are not only sturdy but also aesthetically pleasing, enhancing the cleanliness of our public spaces. Our waste collection teams rely on the reliable garbage rickshaws, which navigate narrow streets effortlessly. With Polywell's wheelbarrows and garbage bags, waste disposal has become a breeze.",
+    name: "MEHUL VOHRA",
+    designation: "Medikit Products",
   },
 ];
 

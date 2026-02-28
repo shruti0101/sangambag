@@ -190,7 +190,7 @@ const accordionData = [
             alt="Factory"
             width={520}
             height={400}
-            className="object-contain ml-10 "
+            className="object-contain md:ml-10 "
           />
 
       

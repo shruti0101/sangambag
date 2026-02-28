@@ -1,8 +1,8 @@
 import ProductClient from "./ProductClient";
 
 export const metadata = {
-  title: "#1 New Delhi Best Paper Cup Making Machine Supplier in India",
-  description: "Explore a wide range of high-quality printing machines by SBS Machinery. Leading manufacturer & supplier of advanced printing solutions in India.",
+  title: "Our Products – Garbage Bags & Waste Management Solutions | Sangam Plastic Industries",
+  description: "Explore our range of high-quality garbage bags — biodegradable, disposable, biomedical, heavy-duty & eco-friendly waste management solutions from a leading manufacturer.",
 };
 
 export default function AboutUsPage() {

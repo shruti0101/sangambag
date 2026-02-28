@@ -11,7 +11,7 @@ const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <footer style={{backgroundImage:"url(/bag/footebg.jpg)"}} className="relative bg-center bg-cover text-white">
+    <footer style={{backgroundImage:"url(/bag/footebg.jpg)"}} className="relative bg-center bg-cover text-white px-5 py-2">
       {/* Watermark */}
       <span className="hidden md:flex absolute mt-20 inset-0  items-center justify-center md:text-[7rem] font-extrabold  text-white/20 select-none pointer-events-none z-0">
        Sangam Plastic Industries
@@ -200,7 +200,7 @@ Plastic Dustbin
                     ✕
                   </button>
                   <img
-                    src="/bag/certificate.webp"
+                    src="/bag/cert.webp"
                     alt="Trust Elite Full"
                     className="max-w-[90vw] max-h-[90vh] rounded-lg shadow-lg"
                   />

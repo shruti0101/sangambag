@@ -82,7 +82,7 @@ const About = () => {
       </p>
 
       {/* GRID */}
-      <div className="grid sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4">
         {partners.map((partner, index) => (
           <div
             key={index}

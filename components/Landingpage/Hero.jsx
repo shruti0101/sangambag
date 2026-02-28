@@ -10,10 +10,11 @@ export default function HeroSection() {
 
 
 const words = [
-  "Waste Management",
-  "Bulk Waste Systems",
-  "Commercial Waste Solutions",
-  "Sanitation Solutions",
+  " Institutional Supply",
+" Tender Supply",
+" GeM-Ready Supply",
+ "Bulk Supply",
+ "Procurement Supply",
 ];
 
 const [text, setText] = useState("");
@@ -46,7 +47,7 @@ useEffect(() => {
 
 
 return (
-<section className="relative w-full min-h-[92vh] sm:min-h-screen overflow-hidden">
+<section className="relative w-full pt-15 md:pt-0 md:min-h-[92vh] sm:min-h-screen overflow-hidden">
 
   {/* Background */}
   <motion.div
@@ -80,7 +81,7 @@ return (
     {/* Heading */}
     <h1 className="
       text-white 
-      text-[30px]
+      text-[25px]
       leading-[40px]
       sm:text-[42px] 
       sm:leading-[52px]
@@ -89,7 +90,7 @@ return (
       lg:text-[66px]
       lg:leading-[80px]
       font-semibold 
-      max-w-xl sm:max-w-3xl
+      max-w-xl sm:max-w-5xl
     ">
       Premium Quality Garbage Bags for Reliable
       <br />
@@ -140,6 +141,8 @@ return (
 
   {/* Floating Mobile Toolbar */}
   <div className="
+
+  hidden md:block 
     fixed 
     bottom-4 
     left-1/2 

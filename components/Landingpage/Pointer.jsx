@@ -41,14 +41,14 @@ function StatCardLeft({ title, desc }) {
 
 export default function PolywellTrustStatsSection() {
   return (
-    <section className="w-full py-16 bg-gradient-to-b from-[#f8fafc] to-white">
+    <section className="w-full py-10 bg-gradient-to-b from-[#f8fafc] to-white">
       <div className="max-w-7xl mx-auto px-4">
 
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-center mb-14"
+          className="text-center mb-8"
         >
          
 
@@ -56,7 +56,7 @@ export default function PolywellTrustStatsSection() {
             Why Government & Institutional Buyers Trust Polywell
           </h2>
 
-          <p className="text-black mt-2 text-[14px] sm:text-[16px] md:text-[20px]">
+          <p className="text-black mt-2 text-[12px] sm:text-[16px] md:text-[20px]">
             Delivering scale, compliance, and execution certainty since 1988.
           </p>
         </motion.div>

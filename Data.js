@@ -11,9 +11,9 @@ export const categories = [
   {
     id: "biodegradable-garbage-bags",
     name: "Biodegradable Garbage Bags",
-    metaTitle: "Biodegradable Garbage Bags Manufacturer & Bulk Supplier|Sangam Plastic Industries",
+    metaTitle: "Biodegradable Garbage Bags – Eco-Friendly Waste Solutions | Sangam Plastic Industries",
     metaDescription:
-      "Sangam Plastic Industries is a leading biodegradable garbage bags manufacturer & bulk supplier in India, offering eco-friendly, durable, and customized compostable waste bags for homes, hospitals, industries, and wholesale buyers at competitive prices.",
+      "Explore premium biodegradable garbage bags designed for eco-friendly waste management. Strong, compostable and sustainable bags for home, office, and industrial use.",
 
     products: [
       // product 1
@@ -403,9 +403,9 @@ export const categories = [
   {
     id: "disposable-garbage-bags",
     name: "Disposable Garbage Bags",
-    metaTitle: "Disposable Garbage Bags Manufacturer & Bulk Supplier Sangam Plastic Industries ",
+    metaTitle: "Disposable Garbage Bags – Strong & Reliable Waste Bags | Sangam Plastic Industries ",
     metaDescription:
-      "Sangam Plastic Industries is a trusted disposable garbage bags manufacturer & bulk supplier in India, offering heavy-duty, eco-friendly, and customized waste bags for hospitals, industries, offices, and wholesale buyers at competitive prices. ",
+      "Shop high-quality disposable garbage bags for everyday waste disposal. Durable, tear-resistant trash bags suitable for homes, offices, restaurants, and businesses.",
 
     products: [
       // product 1
@@ -860,9 +860,9 @@ export const categories = [
   {
     id: "biomedical-garbage-bags",
     name: "Biomedical garbage bags",
-    metaTitle: "Biomedical garbage bags Manufacturer & Bulk Supplier|Sangam Plastic Industries",
+    metaTitle: "Biomedical Garbage Bags – Hospital & Medical Waste Bags | Sangam Plastic Industries",
     metaDescription:
-      "Trusted biomedical garbage bags manufacturer & bulk supplier, Sangam Plastic Industries offers color-coded, high-strength, and CPCB-compliant biohazard waste bags for hospitals, clinics, labs, and healthcare facilities across India at competitive bulk prices.",
+      "Explore premium biomedical garbage bags designed for safe and compliant disposal of hospital and medical waste. Durable, puncture-resistant bags for clinics, labs, and healthcare facilities.",
     products: [
 
 
