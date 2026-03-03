@@ -6,15 +6,15 @@ import { Recycle, Apple, Sprout, DropletOff, BicepsFlexed } from "lucide-react";
 const features = [
   {
     icon: <Recycle size={52} />,
-    title: "Biodegradable",
+    title: "Recyclable",
   },
   {
     icon: <Apple size={52} />,
-    title: "Compostable",
+    title: "QR Scaning Option",
   },
   {
     icon: <Sprout size={52} />,
-    title: "100% Eco Friendly",
+    title: "100% Clear Printing",
   },
   {
     icon: <DropletOff size={52} />,
@@ -28,9 +28,9 @@ const features = [
 
 export default function SustainabilityStrip() {
   return (
-    <section style={{backgroundImage:"url(/bag/bg5.png)"}} className="w-full bg-[#DFF5E8]   py-10 hidden md:block overflow-hidden">
+    <section style={{ backgroundImage: "url(/bag/bg5.png)" }} className="w-full bg-[#DFF5E8]   py-10 hidden md:block overflow-hidden">
 
-      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-5">
 
         {/* Left Heading */}
         <motion.div
@@ -44,7 +44,7 @@ export default function SustainabilityStrip() {
             Green & Clean:
             <br />
             Discover Sustainable
-           
+
             Garbage Bag Solutions!
           </h2>
         </motion.div>

@@ -40,7 +40,7 @@ export default function HighQualityCTA() {
               {/* TEXT */}
               <div className="max-w-2xl">
                 <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">
-                  Built Strong. Made to Last.
+                  Leak Proof. No Infection.
                 </h2>
 
                 <p className="text-white text-sm sm:text-base md:text-lg leading-relaxed">

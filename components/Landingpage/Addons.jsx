@@ -13,28 +13,25 @@ const Addons = () => {
             <p className="text-gray-800 text-lg">Certification</p>
           </div>
 
-          <div className="flex flex-col items-center gap-4">
-            <img src="/gem.png" className="h-25 w-38" />
+          <div className="flex flex-col items-center">
+            <img src="/gem.png" className="h-22 w-38" />
         
-            <p className="text-gray-800 text-lg">GEM Aprroved Products</p>
+            <p className="text-gray-800 text-xl font-semibold">GEM Aprroved Products</p>
           </div>
 
           <div className="flex flex-col items-center gap-2">
-            <img src="/4.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">Renewable</p>
-            <p className="text-gray-800 text-lg">Power Usage</p>
+            <img src="/certificate.webp" className="h-18 w-18" />
+            <p className="font-semibold text-gray-900 text-xl">All Necessary Certificates</p>
           </div>
 
           <div className="flex flex-col items-center gap-2">
-            <img src="/2.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">Waste</p>
-            <p className="text-gray-800 text-lg">Management</p>
+            <img src="/CDSCO-Import-License.webp" className="h-18 w-25" />
+            <p className="font-semibold text-gray-900 text-xl">CDSCO License</p>
           </div>
 
           <div className="hidden md:flex flex-col items-center gap-2">
-            <img src="/5.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">CII Certified</p>
-            <p className="text-gray-800 text-lg">Green Products</p>
+            <img src="/meeting.webp" className="h-18 w-18" />
+            <p className="font-semibold text-gray-900 text-xl">Experince Certificate for Tender</p>
           </div>
         </div>
       </div>

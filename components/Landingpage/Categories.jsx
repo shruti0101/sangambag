@@ -20,7 +20,7 @@ const data = [
   {
     title: "Plastic Small Degradable Garbage Bag",
     desc: "Eco friendly biodegradable garbage bags for sustainable waste disposal.",
-    image: "/bag/pro3.png",
+    image: "/bag/product/15L Biohazard Garbage Bag.webp",
     href: "/categories/disposable-garbage-bags",
   },
   {
