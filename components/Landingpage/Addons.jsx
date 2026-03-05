@@ -9,14 +9,13 @@ const Addons = () => {
         <div className=" mx-auto grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
           <div className="flex flex-col items-center gap-2">
             <img src="/3.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">ISO 50001</p>
-            <p className="text-gray-800 text-lg">Certification</p>
+            <p className="font-semibold text-gray-900 text-xl">ISO 50001 Certification</p>
           </div>
 
           <div className="flex flex-col items-center">
             <img src="/gem.png" className="h-22 w-38" />
         
-            <p className="text-gray-800 text-xl font-semibold">GEM Aprroved Products</p>
+            <p className="text-gray-800 text-xl font-semibold">GEM Approved Products</p>
           </div>
 
           <div className="flex flex-col items-center gap-2">
@@ -31,7 +30,7 @@ const Addons = () => {
 
           <div className="hidden md:flex flex-col items-center gap-2">
             <img src="/meeting.webp" className="h-18 w-18" />
-            <p className="font-semibold text-gray-900 text-xl">Experince Certificate for Tender</p>
+            <p className="font-semibold text-gray-900 text-xl">Experience Certificate for Tender</p>
           </div>
         </div>
       </div>
