@@ -186,8 +186,9 @@ const accordionData = [
         {/* RIGHT IMAGE VIDEO STYLE */}
         <div className="relative    overflow-hidden  ">
           <Image
-            src="/bag/dedicated.png"
+            src="/bag/dedicated.webp"
             alt="Factory"
+            
             width={520}
             height={400}
             className="object-contain md:ml-10 "
