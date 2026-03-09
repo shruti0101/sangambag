@@ -188,6 +188,7 @@ const accordionData = [
           <Image
             src="/bag/dedicated.webp"
             alt="Factory"
+            
             width={520}
             height={400}
             className="object-contain md:ml-10 "
