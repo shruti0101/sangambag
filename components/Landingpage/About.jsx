@@ -82,6 +82,7 @@ const About = () => {
       </p>
 
       {/* GRID */}
+      
       <div className="grid grid-cols-2 gap-4">
         {partners.map((partner, index) => (
           <div
