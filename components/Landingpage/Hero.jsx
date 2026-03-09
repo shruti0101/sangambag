@@ -95,7 +95,7 @@ return (
       Premium Quality Garbage Bags for Reliable
       <br />
 
-      <span className="text-[#00D1A0] font-bold break-words">
+      <span translate="no" className="text-[#00D1A0] font-bold break-words">
         {text}
         <span className="ml-1 animate-pulse border-r-2 sm:border-r-4 border-[#00D1A0]"></span>
       </span>

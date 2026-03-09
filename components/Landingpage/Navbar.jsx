@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import { categories } from "@/Data";
 import Enquiry from "@/components/Enquiry";
 import { motion } from "framer-motion";
+import TranslateButton from "../GoogleTranslate";
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -33,28 +34,25 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${
-        scrolled
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled
           ? "bg-white/70 backdrop-blur-xl shadow-lg border-b border-white/20"
           : "bg-black/40"
-      }`}
+        }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2">
         {/* LOGO */}
         <Link
           href="/"
-          className={`transition-all duration-500 ${
-            scrolled ? "bg-[#053619]" : "bg-transparent"
-          }`}
+          className={`transition-all duration-500 ${scrolled ? "bg-[#053619]" : "bg-transparent"
+            }`}
         >
           <Image src="/logo.webp" alt="Logo" width={200} height={60} />
         </Link>
 
         {/* DESKTOP NAV */}
         <nav
-          className={`hidden md:flex items-center gap-10 font-medium text-[22px] ${
-            scrolled ? "text-black" : "text-white"
-          }`}
+          className={`hidden md:flex items-center gap-10 font-medium text-[22px] ${scrolled ? "text-black" : "text-white"
+            }`}
         >
           <Link href="/">Home</Link>
           <Link href="/about">About Us</Link>
@@ -77,11 +75,10 @@ export default function Navbar() {
                     key={cat.id}
                     href={`/categories/${cat.id}`}
                     onMouseEnter={() => setActiveCategory(cat.id)}
-                    className={`block px-5 py-2 rounded-md transition ${
-                      activeCategory === cat.id
+                    className={`block px-5 py-2 rounded-md transition ${activeCategory === cat.id
                         ? "bg-emerald-600 text-white"
                         : "text-gray-700 hover:bg-gray-100"
-                    }`}
+                      }`}
                   >
                     {cat.name}
                   </Link>
@@ -177,9 +174,8 @@ export default function Navbar() {
                 <span>Our Products</span>
                 <ChevronDown
                   size={18}
-                  className={`transition-transform ${
-                    mobileCategoryOpen ? "rotate-180" : ""
-                  }`}
+                  className={`transition-transform ${mobileCategoryOpen ? "rotate-180" : ""
+                    }`}
                 />
               </button>
 
@@ -238,6 +234,8 @@ export default function Navbar() {
           onClose={() => setIsFormOpen(false)}
         />
       )}
+      
+      <TranslateButton />
     </header>
   );
 }
