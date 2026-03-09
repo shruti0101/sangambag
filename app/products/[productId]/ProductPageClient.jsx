@@ -80,9 +80,7 @@ export default function ProductPage({ params }) {
 
         <div className="relative z-10 flex h-full items-center max-w-7xl mx-auto px-6">
           <div className="text-white max-w-2xl">
-            <span className="uppercase tracking-widest text-sm text-[#1FB79C]">
-              Industrial Packaging Solution
-            </span>
+       
 
             <h1 className="text-3xl md:text-6xl font-bold leading-tight mt-3">
               {product.name}
@@ -223,7 +221,7 @@ transition-all duration-300 font-semibold"
 
 
         {/* ===== DESCRIPTION ===== */}
-<section style={{backgroundImage:"url(/bag/descbg.png)"}} className="w-full bg-center p-10 bg-cover">
+<section style={{backgroundImage:"url(/bag/descbg.png)"}} className="w-full bg-center p-6 md:p-10 bg-cover">
 
   <div  className=" mt-10 max-w-4xl">
           <h2 className="text-3xl md:text-5xl font-semibold mb-6">Product Overview</h2>
@@ -233,7 +231,7 @@ transition-all duration-300 font-semibold"
               product.description.map((block, i) => {
                 if (block.type === "h2")
                   return (
-                    <h2 key={i} className="text-3xl font-semibold mt-6">
+                    <h2 key={i} className="text-2xl font-semibold mt-6">
                       {block.text}
                     </h2>
                   );
