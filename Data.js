@@ -1,7 +1,4 @@
 // data.js
-
-
-
 export const categories = [
 
 
@@ -58,11 +55,11 @@ export const categories = [
         "Manufactured with uniform thickness to ensure consistent quality in every batch."
       ]
     },
-    { "type": "h2", "text": "Why Choose Sangam Plastic Industries Pvt. Ltd. as Your Garbage Bag Manufacturer?" },
+    { "type": "h2", "text": "Why Choose Sangam Plastic Industries Pvt. Ltd. as Your Garbage Bag Manufacturer-in?" },
     {
       "type": "ul",
       "items": [
-        "Trusted Garbage Bag Manufacturer known for producing high-performance and heavy-duty waste disposal products.",
+        "Trusted Garbage Bag Manufacturer-in known for producing high-performance and heavy-duty waste disposal products.",
         "Advanced manufacturing infrastructure ensuring precision production and strong seam quality.",
         "Strict quality control processes maintained from raw material selection to final dispatch.",
         "Capability to fulfill bulk retail and distribution orders with reliable supply timelines.",
@@ -102,7 +99,7 @@ export const categories = [
     {
       "type": "ul",
       "items": [
-        "The Compostable Biodegradable Garbage Bags are manufactured by Sangam Plastic Industries Pvt. Ltd., a trusted Garbage Bag Manufacturer offering sustainable and high-performance waste management solutions.",
+        "The Compostable Biodegradable Garbage Bags are manufactured by Sangam Plastic Industries Pvt. Ltd., a trusted Garbage Bag Manufacturer-in offering sustainable and high-performance waste management solutions.",
         "Made from certified compostable material, these garbage bags are designed to break down under composting conditions, supporting environmentally responsible disposal practices.",
         "Suitable for diverse applications including domestic use, hospital waste collection, hotel and restaurant waste management, and industrial waste handling.",
         "Available in customized sizes, capacities, colors, and packaging formats to meet specific client and institutional requirements.",
@@ -135,11 +132,11 @@ export const categories = [
         "Strong yet flexible structure ensures durability during lifting, tying, and transportation."
       ]
     },
-    { "type": "h2", "text": "Why Choose Sangam Plastic Industries Pvt. Ltd. as Your Garbage Bag Manufacturer?" },
+    { "type": "h2", "text": "Why Choose Sangam Plastic Industries Pvt. Ltd. as Your Garbage Bag Manufacturer-in?" },
     {
       "type": "ul",
       "items": [
-        "Established Garbage Bag Manufacturer with expertise in compostable, biodegradable, and hospital-grade waste management products.",
+        "Established Garbage Bag Manufacturer-in with expertise in compostable, biodegradable, and hospital-grade waste management products.",
         "Advanced manufacturing infrastructure ensuring consistent thickness, strong sealing, and certified product quality.",
         "Compliance with IS/ISO 17088 and CPCB standards, ensuring reliability and regulatory acceptance.",
         "Large-scale production capacity with ready stock availability for bulk and institutional buyers.",
@@ -181,7 +178,7 @@ export const categories = [
     {
       "type": "ul",
       "items": [
-        "The Printed Biodegradable Garbage Bags (2 Kg Capacity) are manufactured by Sangam Plastic Industries Pvt. Ltd., a reliable Garbage Bag Manufacturer offering sustainable and healthcare-focused waste management solutions.",
+        "The Printed Biodegradable Garbage Bags (2 Kg Capacity) are manufactured by Sangam Plastic Industries Pvt. Ltd., a reliable Garbage Bag Manufacturer-in offering sustainable and healthcare-focused waste management solutions.",
         "Designed specifically for medical waste applications, these bags support hygienic collection and safe disposal of clinical and infectious waste.",
         "Manufactured using biodegradable material, the bags help reduce environmental impact while maintaining required strength and durability.",
         "With a 24x32 inch size and 2 kg capacity, the bags are suitable for controlled and systematic medical waste handling.",
@@ -212,7 +209,7 @@ export const categories = [
         "Suitable for hygienic collection, temporary storage, and safe disposal of medical waste."
       ]
     },
-    { "type": "h2", "text": "Why Choose Sangam Plastic Industries Pvt. Ltd. as Your Garbage Bag Manufacturer?" },
+    { "type": "h2", "text": "Why Choose Sangam Plastic Industries Pvt. Ltd. as Your Garbage Bag Manufacturer-in?" },
     {
       "type": "ul",
       "items": [
@@ -1231,523 +1228,107 @@ export const categories = [
   },
 
 
-]
+];
 
-
-
-
-
-
-
-
-
-// export const serviceLocations = [
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-mumbai",
-//     label: "Mumbai",
-//     id: 1,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-delhi",
-//     label: "Delhi",
-//     id: 2,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bengaluru",
-//     label: "Bengaluru",
-//     id: 3,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-chennai",
-//     label: "Chennai",
-//     id: 4,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-kolkata",
-//     label: "Kolkata",
-//     id: 5,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-pune",
-//     label: "Pune",
-//     id: 6,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-hyderabad",
-//     label: "Hyderabad",
-//     id: 7,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-ahmedabad ",
-//     label: "Ahmedabad ",
-//     id: 8,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-surat",
-//     label: "Surat",
-//     id: 9,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-jaipur",
-//     label: "Jaipur",
-//     id: 10,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-lucknow",
-//     label: "Lucknow",
-//     id: 11,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-kanpur",
-//     label: "Kanpur",
-//     id: 12,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-nagpur",
-//     label: "Nagpur",
-//     id: 13,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-indore",
-//     label: "Indore",
-//     id: 14,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bhopal",
-//     label: "Bhopal",
-//     id: 15,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-vadodara",
-//     label: "Vadodara",
-//     id: 16,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-coimbatore",
-//     label: "Coimbatore",
-//     id: 17,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-ludhiana",
-//     label: "Ludhiana",
-//     id: 18,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-agra",
-//     label: "Agra",
-//     id: 19,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-nashik",
-//     label: "Nashik",
-//     id: 20,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-faridabad",
-//     label: "Faridabad",
-//     id: 21,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-gurgaon(gurugram)",
-//     label: "Gurgaon (Gurugram)",
-//     id: 22,
-//   },
- 
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-Noida",
-//     label: "Noida",
-//     id: 24,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-ghaziabad",
-//     label: "Ghaziabad",
-//     id: 25,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-patna",
-//     label: "Patna",
-//     id: 26,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-varanasi",
-//     label: "Varanasi",
-//     id: 27,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-ranchi",
-//     label: "Ranchi",
-//     id: 28,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-jamshedpur",
-//     label: "Jamshedpur",
-//     id: 29,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bhubaneswar",
-//     label: "Bhubaneswar",
-//     id: 30,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-visakhapatnam",
-//     label: "Visakhapatnam",
-//     id: 31,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-vijayawada",
-//     label: "Vijayawada",
-//     id: 32,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-madurai",
-//     label: "Madurai",
-//     id: 33,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-tiruchirappalli",
-//     label: "Tiruchirappalli",
-//     id: 34,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-salem",
-//     label: "Salem",
-//     id: 35,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-kozhikode",
-//     label: "Kozhikode",
-//     id: 36,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-kochi",
-//     label: "Kochi",
-//     id: 37,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-thiruvananthapuram",
-//     label: "Thiruvananthapuram",
-//     id: 38,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-mangalore",
-//     label: "Mangalore",
-//     id: 39,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-rajkot",
-//     label: "Rajkot",
-//     id: 40,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-vadodara(baroda)",
-//     label: "Vadodara (Baroda)",
-//     id: 41,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-amritsar",
-//     label: "Amritsar",
-//     id: 42,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-jalandhar",
-//     label: "Jalandhar",
-//     id: 43,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-chandigarh",
-//     label: "Chandigarh",
-//     id: 44,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-dehradun",
-//     label: "Dehradun",
-//     id: 45,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-meerut",
-//     label: "Meerut",
-//     id: 46,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-aligarh",
-//     label: "Aligarh",
-//     id: 47,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-moradabad",
-//     label: "Moradabad",
-//     id: 48,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-jodhpur",
-//     label: "Jodhpur",
-//     id: 49,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bikaner",
-//     label: "Bikaner",
-//     id: 50,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-udaipur",
-//     label: "Udaipur",
-//     id: 51,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-aurangabad(MH)",
-//     label: "Aurangabad (MH)",
-//     id: 52,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-amravati",
-//     label: "Amravati",
-//     id: 53,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bhavnagar",
-//     label: "Bhavnagar",
-//     id: 54,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-jamnagar",
-//     label: "Jamnagar",
-//     id: 55,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-rajahmundry",
-//     label: "Rajahmundry",
-//     id: 56,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-tiruppur",
-//     label: "Tiruppur",
-//     id: 57,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-salem(TN)",
-//     label: "Salem (TN)",
-//     id: 58,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-warangal",
-//     label: "Warangal",
-//     id: 59,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-guntur",
-//     label: "Guntur",
-//     id: 60,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-hubli-dharwad",
-//     label: "Hubli-Dharwad",
-//     id: 61,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-mysore",
-//     label: "Mysore",
-//     id: 62,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-belgaum",
-//     label: "Belgaum",
-//     id: 63,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bareilly",
-//     label: "Bareilly",
-//     id: 64,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-gorakhpur",
-//     label: "Gorakhpur",
-//     id: 65,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-agartala",
-//     label: "Agartala",
-//     id: 66,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-guwahati",
-//     label: "Guwahati",
-//     id: 67,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-jorhat",
-//     label: "Jorhat",
-//     id: 68,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-shillong",
-//     label: "Shillong",
-//     id: 69,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-imphal",
-//     label: "Imphal",
-//     id: 70,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-itanagar",
-//     label: "Itanagar",
-//     id: 71,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-patiala",
-//     label: "Patiala",
-//     id: 72,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-jabalpur",
-//     label: "jabalpur",
-//     id: 73,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-ujjain",
-//     label: "Ujjain",
-//     id: 74,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-gwalior",
-//     label: "Gwalior",
-//     id: 75,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-kota",
-//     label: "Kota",
-//     id: 76,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-sagar",
-//     label: "Sagar",
-//     id: 77,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bilaspur(chhattisgarh)",
-//     label: "Bilaspur (Chhattisgarh)",
-//     id: 78,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-raipur",
-//     label: "Raipur",
-//     id: 79,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bhilai",
-//     label: "Bhilai",
-//     id: 80,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-durg",
-//     label: "Durg",
-//     id: 81,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-rourkela",
-//     label: "Rourkela",
-//     id: 82,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-cuttack",
-//     label: "Cuttack",
-//     id: 83,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-Kota(rajasthan-industrial-area)",
-//     label: "Kota (Rajasthan industrial area)",
-//     id: 84,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-thane",
-//     label: "Thane",
-//     id: 85,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-navi-mumbai",
-//     label: "Navi Mumbai",
-//     id: 86,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-kalyan-dombivli",
-//     label: "Kalyan-Dombivli",
-//     id: 87,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-vasai-virar",
-//     label: "Vasai-Virar",
-//     id: 88,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-tirunelveli",
-//     label: "Tirunelveli",
-//     id: 89,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-nagercoil",
-//     label: "Nagercoil",
-//     id: 90,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-vellore",
-//     label: "Vellore",
-//     id: 91,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-erode",
-//     label: "Erode",
-//     id: 92,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-tirupati",
-//     label: "Tirupati",
-//     id: 93,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-kakinada",
-//     label: "Kakinada",
-//     id: 94,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-siliguri",
-//     label: "Siliguri",
-//     id: 95,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-asansol",
-//     label: "Asansol",
-//     id: 96,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-dhanbad",
-//     label: "Dhanbad",
-//     id: 97,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-bokaro",
-//     label: "Bokaro",
-//     id: 98,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-jabalpur",
-//     label: "Jabalpur",
-//     id: 99,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-ajmer",
-//     label: "Ajmer",
-//     id: 100,
-//   },
-//   {
-//     href: "/paper-cup-making-machine-manufacturer-in-udaipur(rajasthan)",
-//     label: "Udaipur (Rajasthan)",
-//     id: 101,
-//   },
-
-
-  
-
-  
-
-
-// ];
+export const serviceLocations = [
+  { "href": "/garbage-bag-manufacturer-in-delhi", "label": "Delhi", "id": 1 },
+  { "href": "/garbage-bag-manufacturer-in-mumbai", "label": "Mumbai", "id": 2 },
+  { "href": "/garbage-bag-manufacturer-in-kolkata", "label": "Kolkata", "id": 3 },
+  { "href": "/garbage-bag-manufacturer-in-chennai", "label": "Chennai", "id": 4 },
+  { "href": "/garbage-bag-manufacturer-in-bangalore", "label": "Bangalore", "id": 5 },
+  { "href": "/garbage-bag-manufacturer-in-hyderabad", "label": "Hyderabad", "id": 6 },
+  { "href": "/garbage-bag-manufacturer-in-pune", "label": "Pune", "id": 7 },
+  { "href": "/garbage-bag-manufacturer-in-ahmedabad", "label": "Ahmedabad", "id": 8 },
+  { "href": "/garbage-bag-manufacturer-in-jaipur", "label": "Jaipur", "id": 9 },
+  { "href": "/garbage-bag-manufacturer-in-lucknow", "label": "Lucknow", "id": 10 },
+  { "href": "/garbage-bag-manufacturer-in-surat", "label": "Surat", "id": 11 },
+  { "href": "/garbage-bag-manufacturer-in-kanpur", "label": "Kanpur", "id": 12 },
+  { "href": "/garbage-bag-manufacturer-in-nagpur", "label": "Nagpur", "id": 13 },
+  { "href": "/garbage-bag-manufacturer-in-indore", "label": "Indore", "id": 14 },
+  { "href": "/garbage-bag-manufacturer-in-thane", "label": "Thane", "id": 15 },
+  { "href": "/garbage-bag-manufacturer-in-bhopal", "label": "Bhopal", "id": 16 },
+  { "href": "/garbage-bag-manufacturer-in-visakhapatnam", "label": "Visakhapatnam", "id": 17 },
+  { "href": "/garbage-bag-manufacturer-in-pimpri-chinchwad", "label": "Pimpri-Chinchwad", "id": 18 },
+  { "href": "/garbage-bag-manufacturer-in-patna", "label": "Patna", "id": 19 },
+  { "href": "/garbage-bag-manufacturer-in-vadodara", "label": "Vadodara", "id": 20 },
+  { "href": "/garbage-bag-manufacturer-in-ghaziabad", "label": "Ghaziabad", "id": 21 },
+  { "href": "/garbage-bag-manufacturer-in-ludhiana", "label": "Ludhiana", "id": 22 },
+  { "href": "/garbage-bag-manufacturer-in-agra", "label": "Agra", "id": 23 },
+  { "href": "/garbage-bag-manufacturer-in-nashik", "label": "Nashik", "id": 24 },
+  { "href": "/garbage-bag-manufacturer-in-faridabad", "label": "Faridabad", "id": 25 },
+  { "href": "/garbage-bag-manufacturer-in-meerut", "label": "Meerut", "id": 26 },
+  { "href": "/garbage-bag-manufacturer-in-rajkot", "label": "Rajkot", "id": 27 },
+  { "href": "/garbage-bag-manufacturer-in-kalyan-dombivli", "label": "Kalyan-Dombivli", "id": 28 },
+  { "href": "/garbage-bag-manufacturer-in-vasai-virar", "label": "Vasai-Virar", "id": 29 },
+  { "href": "/garbage-bag-manufacturer-in-varanasi", "label": "Varanasi", "id": 30 },
+  { "href": "/garbage-bag-manufacturer-in-srinagar", "label": "Srinagar", "id": 31 },
+  { "href": "/garbage-bag-manufacturer-in-aurangabad", "label": "Aurangabad", "id": 32 },
+  { "href": "/garbage-bag-manufacturer-in-dhanbad", "label": "Dhanbad", "id": 33 },
+  { "href": "/garbage-bag-manufacturer-in-amritsar", "label": "Amritsar", "id": 34 },
+  { "href": "/garbage-bag-manufacturer-in-navi-mumbai", "label": "Navi Mumbai", "id": 35 },
+  { "href": "/garbage-bag-manufacturer-in-prayagraj", "label": "Allahabad (Prayagraj)", "id": 36 },
+  { "href": "/garbage-bag-manufacturer-in-howrah", "label": "Howrah", "id": 37 },
+  { "href": "/garbage-bag-manufacturer-in-ranchi", "label": "Ranchi", "id": 38 },
+  { "href": "/garbage-bag-manufacturer-in-gwalior", "label": "Gwalior", "id": 39 },
+  { "href": "/garbage-bag-manufacturer-in-jabalpur", "label": "Jabalpur", "id": 40 },
+  { "href": "/garbage-bag-manufacturer-in-coimbatore", "label": "Coimbatore", "id": 41 },
+  { "href": "/garbage-bag-manufacturer-in-vijayawada", "label": "Vijayawada", "id": 42 },
+  { "href": "/garbage-bag-manufacturer-in-jodhpur", "label": "Jodhpur", "id": 43 },
+  { "href": "/garbage-bag-manufacturer-in-madurai", "label": "Madurai", "id": 44 },
+  { "href": "/garbage-bag-manufacturer-in-raipur", "label": "Raipur", "id": 45 },
+  { "href": "/garbage-bag-manufacturer-in-kota", "label": "Kota", "id": 46 },
+  { "href": "/garbage-bag-manufacturer-in-guwahati", "label": "Guwahati", "id": 47 },
+  { "href": "/garbage-bag-manufacturer-in-chandigarh", "label": "Chandigarh", "id": 48 },
+  { "href": "/garbage-bag-manufacturer-in-solapur", "label": "Solapur", "id": 49 },
+  { "href": "/garbage-bag-manufacturer-in-hubli-dharwad", "label": "Hubli-Dharwad", "id": 50 },
+  { "href": "/garbage-bag-manufacturer-in-mysore", "label": "Mysore", "id": 51 },
+  { "href": "/garbage-bag-manufacturer-in-bareilly", "label": "Bareilly", "id": 52 },
+  { "href": "/garbage-bag-manufacturer-in-moradabad", "label": "Moradabad", "id": 53 },
+  { "href": "/garbage-bag-manufacturer-in-gurgaon", "label": "Gurgaon", "id": 54 },
+  { "href": "/garbage-bag-manufacturer-in-aligarh", "label": "Aligarh", "id": 55 },
+  { "href": "/garbage-bag-manufacturer-in-jalandhar", "label": "Jalandhar", "id": 56 },
+  { "href": "/garbage-bag-manufacturer-in-tiruchirappalli", "label": "Tiruchirappalli", "id": 57 },
+  { "href": "/garbage-bag-manufacturer-in-bhubaneswar", "label": "Bhubaneswar", "id": 58 },
+  { "href": "/garbage-bag-manufacturer-in-salem", "label": "Salem", "id": 59 },
+  { "href": "/garbage-bag-manufacturer-in-mira-bhayandar", "label": "Mira-Bhayandar", "id": 60 },
+  { "href": "/garbage-bag-manufacturer-in-thiruvananthapuram", "label": "Thiruvananthapuram", "id": 61 },
+  { "href": "/garbage-bag-manufacturer-in-bhiwandi", "label": "Bhiwandi", "id": 62 },
+  { "href": "/garbage-bag-manufacturer-in-saharanpur", "label": "Saharanpur", "id": 63 },
+  { "href": "/garbage-bag-manufacturer-in-gorakhpur", "label": "Gorakhpur", "id": 64 },
+  { "href": "/garbage-bag-manufacturer-in-bikaner", "label": "Bikaner", "id": 65 },
+  { "href": "/garbage-bag-manufacturer-in-amravati", "label": "Amravati", "id": 66 },
+  { "href": "/garbage-bag-manufacturer-in-noida", "label": "Noida", "id": 67 },
+  { "href": "/garbage-bag-manufacturer-in-jamshedpur", "label": "Jamshedpur", "id": 68 },
+  { "href": "/garbage-bag-manufacturer-in-bhilai", "label": "Bhilai", "id": 69 },
+  { "href": "/garbage-bag-manufacturer-in-cuttack", "label": "Cuttack", "id": 70 },
+  { "href": "/garbage-bag-manufacturer-in-firozabad", "label": "Firozabad", "id": 71 },
+  { "href": "/garbage-bag-manufacturer-in-kochi", "label": "Kochi", "id": 72 },
+  { "href": "/garbage-bag-manufacturer-in-bhavnagar", "label": "Bhavnagar", "id": 73 },
+  { "href": "/garbage-bag-manufacturer-in-dehradun", "label": "Dehradun", "id": 74 },
+  { "href": "/garbage-bag-manufacturer-in-durgapur", "label": "Durgapur", "id": 75 },
+  { "href": "/garbage-bag-manufacturer-in-asansol", "label": "Asansol", "id": 76 },
+  { "href": "/garbage-bag-manufacturer-in-nanded", "label": "Nanded", "id": 77 },
+  { "href": "/garbage-bag-manufacturer-in-kolhapur", "label": "Kolhapur", "id": 78 },
+  { "href": "/garbage-bag-manufacturer-in-ajmer", "label": "Ajmer", "id": 79 },
+  { "href": "/garbage-bag-manufacturer-in-akola", "label": "Akola", "id": 80 },
+  { "href": "/garbage-bag-manufacturer-in-gulbarga", "label": "Gulbarga", "id": 81 },
+  { "href": "/garbage-bag-manufacturer-in-jamnagar", "label": "Jamnagar", "id": 82 },
+  { "href": "/garbage-bag-manufacturer-in-ujjain", "label": "Ujjain", "id": 83 },
+  { "href": "/garbage-bag-manufacturer-in-latur", "label": "Latur", "id": 84 },
+  { "href": "/garbage-bag-manufacturer-in-dhule", "label": "Dhule", "id": 85 },
+  { "href": "/garbage-bag-manufacturer-in-panipat", "label": "Panipat", "id": 86 },
+  { "href": "/garbage-bag-manufacturer-in-ambala", "label": "Ambala", "id": 87 },
+  { "href": "/garbage-bag-manufacturer-in-tirunelveli", "label": "Tirunelveli", "id": 88 },
+  { "href": "/garbage-bag-manufacturer-in-alwar", "label": "Alwar", "id": 89 },
+  { "href": "/garbage-bag-manufacturer-in-jagraon", "label": "Jagraon", "id": 90 },
+  { "href": "/garbage-bag-manufacturer-in-siliguri", "label": "Siliguri", "id": 91 },
+  { "href": "/garbage-bag-manufacturer-in-muzaffarpur", "label": "Muzaffarpur", "id": 92 },
+  { "href": "/garbage-bag-manufacturer-in-guntur", "label": "Guntur", "id": 93 },
+  { "href": "/garbage-bag-manufacturer-in-warangal", "label": "Warangal", "id": 94 },
+  { "href": "/garbage-bag-manufacturer-in-jhansi", "label": "Jhansi", "id": 95 },
+  { "href": "/garbage-bag-manufacturer-in-satara", "label": "Satara", "id": 96 },
+  { "href": "/garbage-bag-manufacturer-in-karnal", "label": "Karnal", "id": 97 },
+  { "href": "/garbage-bag-manufacturer-in-shimla", "label": "Shimla", "id": 98 },
+  { "href": "/garbage-bag-manufacturer-in-anand", "label": "Anand", "id": 99 },
+  { "href": "/garbage-bag-manufacturer-in-rewari", "label": "Rewari", "id": 100 }
+];

@@ -15,6 +15,7 @@ import Popup from "@/components/Popup";
 import Dedicated from "@/components/Landingpage/Dedicated";
 import Otherproduct from "@/components/Landingpage/Otherpro";
 import Pointer from "@/components/Landingpage/Pointer";
+import Loactions from "@/components/Locations";
 
 
 export default function Home() {
@@ -24,21 +25,21 @@ export default function Home() {
       <Hero />
       <Cta></Cta>
       <About />
-    <Pointer></Pointer>
+      <Pointer></Pointer>
       <Categories />
       <Countup />
-        <Whoweare />
-           <Otherproduct></Otherproduct>
-   <Dedicated></Dedicated>
+      <Whoweare />
+      <Otherproduct></Otherproduct>
+      <Dedicated></Dedicated>
 
-  <Formsection></Formsection>
-         <Process></Process>
+      <Formsection></Formsection>
+      <Process></Process>
       <Whychoose />
- 
-       <TestimonialSlider></TestimonialSlider>
+
+      <TestimonialSlider></TestimonialSlider>
       <Faq></Faq>
-     
-    
+      <Loactions />
+
       {/* <CityPage /> */}
     </>
   );
