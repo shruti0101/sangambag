@@ -52,7 +52,7 @@ export default function HighQualityCTA() {
               </div>
 
               {/* BUTTON */}
-              <Link href="contact">
+              <Link href="/products">
               
               <motion.button
                 whileHover={{ scale: 1.05 }}

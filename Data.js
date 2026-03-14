@@ -16,18 +16,18 @@ export const categories = [
     products: [
       // product 1
 {
-  "id": "70kgDisposablePlasticGarbageBag",
-  "name": "70kg Disposable Plastic Garbage Bag",
-  "metaTitle": "70kg Disposable Plastic Garbage Bag",
-  "metaDescription": "70kg Disposable Plastic Garbage Bag",
+  "id": "DisposablePlasticGarbageBag",
+  "name": "Disposable Plastic Garbage Bag",
+  "metaTitle": "Disposable Plastic Garbage Bag",
+  "metaDescription": "Disposable Plastic Garbage Bag",
 
   "description": [
     { "type": "h2", "text": "Product Overview – 70kg Disposable Plastic Garbage Bag" },
     {
       "type": "ul",
       "items": [
-        "The 70kg Disposable Plastic Garbage Bag is manufactured by Sangam Plastic Industries Pvt. Ltd. under the trusted Polywell brand, delivering high-strength waste management solutions for demanding household use.",
-        "Designed with an impressive 70kg load-bearing capacity, this garbage bag is suitable for handling heavy domestic waste without tearing or bursting.",
+        "The Disposable Plastic Garbage Bag is manufactured by Sangam Plastic Industries Pvt. Ltd. under the trusted Polywell brand, delivering high-strength waste management solutions for demanding household use.",
+        "Designed with an impressive load-bearing capacity, this garbage bag is suitable for handling heavy domestic waste without tearing or bursting.",
         "Made from premium-quality HDPE (High-Density Polyethylene), the bag ensures superior strength, durability, and resistance to punctures.",
         "The 19x21 inch size is engineered to provide proper dustbin fitting while maintaining structural integrity under heavy loads.",
         "Ideal for household applications where stronger and more durable waste disposal solutions are required for bulk or dense waste materials."
@@ -38,7 +38,7 @@ export const categories = [
       "type": "ul",
       "items": [
         "Size – 19x21 Inch: Suitable for compatible household bins and containers requiring strong lining support.",
-        "Capacity – 70Kg: Designed to withstand heavy waste loads without compromising performance.",
+        "Capacity – Designed to withstand heavy waste loads without compromising performance.",
         "Material – HDPE: High-Density Polyethylene construction ensures enhanced tensile strength and durability.",
         "Usage/Application – Household: Ideal for homes requiring reliable waste disposal for heavier garbage output.",
         "Features – Leak Proof: Strong bottom sealing prevents liquid leakage and maintains cleanliness.",
@@ -49,7 +49,7 @@ export const categories = [
     {
       "type": "ul",
       "items": [
-        "Heavy-duty HDPE material provides exceptional load-bearing strength up to 70kg.",
+        "Heavy-duty HDPE material provides exceptional load-bearing strength",
         "Leak-proof sealing technology minimizes spillage and supports hygienic waste handling.",
         "Tear-resistant structure ensures durability during lifting, tying, and transportation.",
         "Designed for safe handling of both dry and wet household waste.",
@@ -71,7 +71,7 @@ export const categories = [
 
   "specs": [
     { "label": "Size", "value": "19x21 Inch" },
-    { "label": "Capacity", "value": "70Kg" },
+    { "label": "Color", "value": "All Color" },
     { "label": "Material", "value": "HDPE" },
     { "label": "Usage/Application", "value": "Household" },
     { "label": "Features", "value": "Leak Proof" },
@@ -80,7 +80,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/70kg Disposable Plastic Garbage Bag.webp",
+      "src": "/new/green.webp",
       "alt": "70kg Disposable Plastic Garbage Bag"
     }
   ]
@@ -160,7 +160,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/Compostable Biodegradable Garbage Bags.webp",
+      "src": "/new/green.webp",
       "alt": "Compostable Biodegradable Garbage Bags"
     }
   ]
@@ -169,20 +169,20 @@ export const categories = [
 // 3
 
 {
-  "id": "PrintedBiodegradableGarbageBags2Kg",
-  "name": "Printed Biodegradable Garbage Bags, Capacity: 2 Kg",
-  "metaTitle": "Printed Biodegradable Garbage Bags | 2 Kg Capacity | Medical Waste",
-  "metaDescription": "Printed Biodegradable Garbage Bags with 2 Kg capacity designed for medical waste disposal. Antimicrobial, 24x32 inch size, Made in India, In Stock.",
+  "id": "PrintedBiodegradableGarbageBags",
+  "name": "Printed Biodegradable Garbage Bags",
+  "metaTitle": "Printed Biodegradable Garbage Bags |  Medical Waste",
+  "metaDescription": "Printed Biodegradable Garbage Bags designed for medical waste disposal. Antimicrobial, 24x32 inch size, Made in India, In Stock.",
 
   "description": [
-    { "type": "h2", "text": "Product Overview – Printed Biodegradable Garbage Bags (2 Kg Capacity)" },
+    { "type": "h2", "text": "Product Overview – Printed Biodegradable Garbage Bags " },
     {
       "type": "ul",
       "items": [
-        "The Printed Biodegradable Garbage Bags (2 Kg Capacity) are manufactured by Sangam Plastic Industries Pvt. Ltd., a reliable Garbage Bag Manufacturer-in offering sustainable and healthcare-focused waste management solutions.",
+        "The Printed Biodegradable Garbage Bags  are manufactured by Sangam Plastic Industries Pvt. Ltd., a reliable Garbage Bag Manufacturer-in offering sustainable and healthcare-focused waste management solutions.",
         "Designed specifically for medical waste applications, these bags support hygienic collection and safe disposal of clinical and infectious waste.",
         "Manufactured using biodegradable material, the bags help reduce environmental impact while maintaining required strength and durability.",
-        "With a 24x32 inch size and 2 kg capacity, the bags are suitable for controlled and systematic medical waste handling.",
+        " The bags are suitable for controlled and systematic medical waste handling.",
         "The printed pattern ensures clear identification and organized waste segregation in hospitals and healthcare facilities."
       ]
     },
@@ -190,11 +190,11 @@ export const categories = [
     {
       "type": "ul",
       "items": [
-        "Capacity – 2 Kg: Suitable for collecting limited quantities of medical and biohazard waste safely.",
+        " Suitable for collecting limited quantities of medical and biohazard waste safely.",
         "Pattern – Printed: Clearly printed design for identification and professional medical usage.",
         "Usage/Application – Medical Waste: Ideal for hospitals, clinics, laboratories, and diagnostic centers.",
         "Anti Microbial – Yes: Designed with antimicrobial properties to support enhanced hygiene and contamination control.",
-        "Size – 24x32 Inch: Provides proper bin coverage and easy handling during disposal.",
+        " Provides proper bin coverage and easy handling during disposal.",
         "Country of Origin – Made in India: Manufactured in India with consistent quality standards.",
         "Availability – In Stock: Ready availability ensures timely supply for healthcare institutions."
       ]
@@ -224,11 +224,11 @@ export const categories = [
   ],
 
   "specs": [
-    { "label": "Capacity", "value": "2 Kg" },
+
     { "label": "Pattern", "value": "Printed" },
     { "label": "Usage/Application", "value": "Medical Waste" },
     { "label": "Anti Microbial", "value": "Yes" },
-    { "label": "Size", "value": "24x32 Inch" },
+    { "label": "Size", "value": "All Size" },
     { "label": "Country of Origin", "value": "Made in India" },
     { "label": "Availability", "value": "In Stock" }
   ],
@@ -408,17 +408,17 @@ export const categories = [
     products: [
       // product 1
 {
-  "id": "17x19PlasticDisposableGarbageBag",
-  "name": "17x19 Inch Plastic Disposable Garbage Bag",
-  "metaTitle": "17x19 Inch Plastic Disposable Garbage Bag",
-  "metaDescription": "17x19 Inch Plastic Disposable Garbage Bag",
+  "id": "PlasticDisposableGarbageBag",
+  "name": " Plastic Disposable Garbage Bag",
+  "metaTitle": " Plastic Disposable Garbage Bag",
+  "metaDescription": " Plastic Disposable Garbage Bag",
 
   "description": [
-    { "type": "h2", "text": "Product Overview – 17x19 Inch Plastic Disposable Garbage Bag" },
+    { "type": "h2", "text": "Product Overview – Plastic Disposable Garbage Bag" },
     {
       "type": "ul",
       "items": [
-        "The 17x19 Inch Plastic Disposable Garbage Bag is manufactured by Sangam Plastic Industries Pvt. Ltd., a reputed Garbage Bag Manufacturer known for producing high-quality and durable waste management solutions for everyday use.",
+        "The  Plastic Disposable Garbage Bag is manufactured by Sangam Plastic Industries Pvt. Ltd., a reputed Garbage Bag Manufacturer known for producing high-quality and durable waste management solutions for everyday use.",
         "Specifically designed for household applications, this garbage bag offers a practical and hygienic solution for collecting kitchen waste, bathroom waste, and general daily refuse.",
         "Made from premium-grade LDPE (Low-Density Polyethylene) material, the bag provides excellent flexibility, smooth texture, and resistance to stretching or tearing under normal load conditions.",
         "With a convenient 17x19 inch size, it fits perfectly in small to medium household dustbins, ensuring proper lining and easy removal after use.",
@@ -429,7 +429,7 @@ export const categories = [
     {
       "type": "ul",
       "items": [
-        "Size – 17x19 Inch: Ideal dimensions for standard household dustbins used in kitchens, bedrooms, bathrooms, and office cabins.",
+        " Ideal dimensions for standard household dustbins used in kitchens, bedrooms, bathrooms, and office cabins.",
         "Material – LDPE: Manufactured using durable Low-Density Polyethylene that ensures flexibility, strength, and resistance to moisture.",
         "Color – Black: Opaque black color helps conceal waste, providing a neat and clean appearance.",
         "Product Type – Plastic Disposable Garbage Bag: Lightweight, easy-to-use disposable bag designed for daily waste management.",
@@ -462,7 +462,7 @@ export const categories = [
   ],
 
     "specs": [
-        { label: "Size", value: "17 x 19 Inch" },
+        { label: "Size", value: "All Size" },
   { label: "Material", value: "LDPE" },
   { label: "Color", value: "Black" },
   { label: "Product Type", value: "Plastic Disposable Garbage Bag" },
@@ -472,7 +472,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/17x19 Inch Plastic Disposable Garbage Bag.webp",
+      "src": "/new/black gar.webp",
       "alt": "17x19 Inch Plastic Disposable Garbage Bag"
     }
   ]
@@ -545,7 +545,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/20 x 24 inch Disposable Garbage Bags.webp",
+      "src": "/new/red garba.webp",
       "alt": "20 x 24 inch Disposable Garbage Bags"
     }
   ]
@@ -554,17 +554,17 @@ export const categories = [
       // product 3
 
    {
-  "id": "30LBiohazardDisposableBags",
-  "name": "30L Biohazard Disposable Bags",
-  "metaTitle": "30L Biohazard Disposable Bags",
-  "metaDescription": "30L Biohazard Disposable Bags",
+  "id": "BiohazardDisposableBags",
+  "name": " Biohazard Disposable Bags",
+  "metaTitle": " Biohazard Disposable Bags",
+  "metaDescription": " Biohazard Disposable Bags",
 
   "description": [
-    { "type": "h2", "text": "Product Overview – 30L Biohazard Disposable Bags" },
+    { "type": "h2", "text": "Product Overview – Biohazard Disposable Bags" },
     {
       "type": "ul",
       "items": [
-        "The 30L Biohazard Disposable Bags are manufactured by Sangam Plastic Industries Pvt. Ltd. under the trusted brand Polywell, offering safe and reliable solutions for biomedical waste management.",
+        "The Biohazard Disposable Bags are manufactured by Sangam Plastic Industries Pvt. Ltd. under the trusted brand Polywell, offering safe and reliable solutions for biomedical waste management.",
         "Designed with a 30-liter capacity, these bags are ideal for handling moderate volumes of bio-medical waste generated in hospitals, clinics, laboratories, and healthcare facilities.",
         "Manufactured using high-quality plastic material, the bags provide excellent strength, flexibility, and resistance to tearing during collection and transportation.",
         "Developed specifically for bio medical waste collection, these bags support proper segregation and safe disposal practices in compliance with healthcare standards.",
@@ -575,7 +575,7 @@ export const categories = [
     {
       "type": "ul",
       "items": [
-        "Capacity – 30 Liter: Suitable for collecting moderate quantities of biomedical waste in clinical and hospital environments.",
+        "Suitable for collecting moderate quantities of biomedical waste in clinical and hospital environments.",
         "Material – Plastic: Strong and durable plastic construction for safe handling of infectious and hazardous waste.",
         "Property – Recyclable: Manufactured using recyclable material, supporting responsible and environmentally conscious disposal practices.",
         "Usage/Application – Bio Medical Waste Collection: Ideal for hospitals, diagnostic centers, laboratories, and healthcare institutions.",
@@ -608,7 +608,7 @@ export const categories = [
   ],
 
   "specs": [
-    { "label": "Capacity", "value": "30 Liter" },
+    { "label": "Capacity", "value": "All Size" },
     { "label": "Material", "value": "Plastic" },
     { "label": "Property", "value": "Recyclable" },
     { "label": "Usage/Application", "value": "Bio Medical Waste Collection" },
@@ -786,7 +786,7 @@ export const categories = [
         "The 15L Biohazard Garbage Bag is manufactured by Sangam Plastic Industries Pvt. Ltd. under the trusted Polywell brand, offering safe and reliable solutions for biomedical waste disposal.",
         "Designed with a 15-liter capacity, this bag is ideal for handling moderate quantities of infectious and hazardous waste generated in hospitals, clinics, laboratories, and healthcare facilities.",
         "Made from high-quality LDPE (Low-Density Polyethylene), the bag ensures flexibility, strength, and durability during waste collection and transportation.",
-        "The 24x32 inch rectangular design provides proper dustbin coverage, secure fitting, and convenient handling in medical environments.",
+        "The 32x42 inch rectangular design provides proper dustbin coverage, secure fitting, and convenient handling in medical environments.",
         "Developed to support safe segregation and responsible disposal practices, the bag helps maintain hygiene and minimize contamination risks."
       ]
     },
@@ -796,7 +796,7 @@ export const categories = [
       "items": [
         "Capacity – 15L: Suitable for collecting moderate volumes of biomedical and clinical waste.",
         "Material – LDPE: Flexible yet durable material offering reliable performance and resistance to tearing.",
-        "Size – 24x32 Inch: Provides ample coverage for standard biomedical waste bins.",
+        "Size – 32x42 Inch: Provides ample coverage for standard biomedical waste bins.",
         "Shape – Rectangular: Designed for better fitting and efficient waste containment.",
         "Print Type – Flexo: High-quality flexographic printing ensures clear biohazard markings and identification.",
         "Brand – Polywell: Recognized for consistent quality and dependable waste management solutions."
@@ -829,7 +829,7 @@ export const categories = [
   "specs": [
     { "label": "Capacity", "value": "15L" },
     { "label": "Material", "value": "LDPE" },
-    { "label": "Size", "value": "24x32 Inch" },
+    { "label": "Size", "value": "32x42 Inch" },
     { "label": "Shape", "value": "Rectangular" },
     { "label": "Print Type", "value": "Flexo" },
     { "label": "Brand", "value": "Polywell" }
@@ -837,7 +837,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/15L Biohazard Garbage Bag.webp",
+      "src": "/new/white (1).webp",
       "alt": "15L Biohazard Garbage Bag"
     }
   ]
@@ -857,81 +857,13 @@ export const categories = [
   // category 2  Biomedical garbage bags
   {
     id: "biomedical-garbage-bags",
-    name: "Biomedical garbage bags",
+    name: "Biomedical Garbage Bags",
     metaTitle: "Biomedical Garbage Bags – Hospital & Medical Waste Bags | Sangam Plastic Industries",
     metaDescription:
       "Explore premium biomedical garbage bags designed for safe and compliant disposal of hospital and medical waste. Durable, puncture-resistant bags for clinics, labs, and healthcare facilities.",
     products: [
 
 
-    {
-  "id": "BiodegradableDustbinCover",
-  "name": "Biodegradable Dustbin Cover",
-  "metaTitle": "Biodegradable Dustbin Cover",
-  "metaDescription": "Biodegradable Dustbin Cover",
-
-  "description": [
-    { "type": "h2", "text": "Product Overview – Biodegradable Dustbin Cover" },
-    {
-      "type": "ul",
-      "items": [
-        "The Biodegradable Dustbin Cover is manufactured by Sangam Plastic Industries Pvt. Ltd., a reliable Garbage Bag Manufacturer offering eco-conscious waste management solutions for healthcare environments.",
-        "Specifically designed for hospital usage areas, this dustbin cover supports hygienic and safe waste collection practices in medical facilities.",
-        "Made from biodegradable material, the product helps reduce environmental impact while maintaining durability and functional performance.",
-        "Supplied in convenient roll form, the covers allow easy dispensing, organized storage, and efficient daily usage.",
-        "Developed to meet modern sanitation standards, the dustbin cover ensures cleanliness, safe handling, and improved waste segregation in hospitals."
-      ]
-    },
-    { "type": "h2", "text": "Product Details" },
-    {
-      "type": "ul",
-      "items": [
-        "Material – Biodegradable: Manufactured using environmentally responsible material that decomposes naturally under suitable conditions.",
-        "Usage Area – Hospital: Ideal for patient rooms, operation theaters, laboratories, and general hospital waste collection zones.",
-        "Bag Type – Roll Form: Easy-to-use roll packaging enables quick dispensing and convenient storage.",
-        "Pattern – Plain: Simple plain design suitable for professional medical environments.",
-        "Country of Origin – Made in India: Manufactured in India with consistent quality control and reliable supply capability."
-      ]
-    },
-    { "type": "h2", "text": "Key Features" },
-    {
-      "type": "ul",
-      "items": [
-        "Eco-friendly biodegradable construction helps minimize long-term environmental impact.",
-        "Strong and durable material ensures resistance to tearing during regular hospital waste handling.",
-        "Leak-resistant design supports hygienic disposal of medical and general hospital waste.",
-        "Roll form packaging allows systematic usage and reduces handling effort.",
-        "Suitable for maintaining high sanitation standards in healthcare facilities."
-      ]
-    },
-    { "type": "h2", "text": "Why Choose Sangam Plastic Industries Pvt. Ltd. as Your Garbage Bag Manufacturer?" },
-    {
-      "type": "ul",
-      "items": [
-        "Established Garbage Bag Manufacturer with expertise in producing hospital-grade and biodegradable waste management products.",
-        "Advanced manufacturing infrastructure ensuring uniform thickness, strong sealing, and consistent product quality.",
-        "Strict quality control procedures implemented at every stage of production.",
-        "Ability to handle bulk hospital and institutional orders with timely delivery support.",
-        "Customer-focused approach offering competitive pricing, customization options, and long-term supply reliability."
-      ]
-    }
-  ],
-
-  "specs": [
-    { "label": "Material", "value": "Biodegradable" },
-    { "label": "Usage Area", "value": "Hospital" },
-    { "label": "Bag Type", "value": "Roll Form" },
-    { "label": "Pattern", "value": "Plain" },
-    { "label": "Country Of Origin", "value": "Made In India" }
-  ],
-
-  "image": [
-    {
-      "src": "/bag/product/Biodegradable Dustbin Cover.webp",
-      "alt": "Biodegradable Dustbin Cover"
-    }
-  ]
-},
 
 // 2
 
@@ -996,7 +928,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/Biodegradable Garbage Bags.webp",
+      "src": "/new/black (1).webp",
       "alt": "Biodegradable Garbage Bags"
     }
   ]
@@ -1073,7 +1005,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/Garbage and Waste Bags.webp",
+      "src": "/new/green.webp",
       "alt": "Garbage and Waste Bags"
     }
   ]
@@ -1218,7 +1150,7 @@ export const categories = [
 
   "image": [
     {
-      "src": "/bag/product/50L Bio Degradable Bio Hazard Bag.webp",
+      "src": "/new/red (2).webp",
       "alt": "50L Bio Degradable Bio Hazard Bag"
     }
   ]

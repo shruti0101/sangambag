@@ -8,25 +8,25 @@ const data = [
   {
     title: "Plastic Disposable Garbage Bag",
     desc: "Bags designed for segregation of household waste via optical colour sorting.",
-    image: "/bag/pro1.png",
+    image: "/new/red garba.webp",
     href: "/categories/disposable-garbage-bags",
   },
   {
     title: "Biodegradable Garbage Bags",
     desc: "Bags designed for institutional use, easy to dispense one by one.",
-    image: "/bag/pro2.png",
+    image: "/new/green.webp",
     href: "/categories/biodegradable-garbage-bags",
   },
   {
     title: "Plastic Small Degradable Garbage Bag",
     desc: "Eco friendly biodegradable garbage bags for sustainable waste disposal.",
-    image: "/bag/product/15L Biohazard Garbage Bag.webp",
+    image: "/new/white (1).webp",
     href: "/categories/disposable-garbage-bags",
   },
   {
     title: "Compostable Biodegradable garbage bags",
     desc: "Heavy duty plastic garbage bags for construction and commercial use.",
-    image: "/bag/pro4.png",
+    image: "/new/red (2).webp",
     href: "/categories/biomedical-garbage-bags",
   },
 ];
@@ -69,7 +69,7 @@ export default function ProductCards() {
                   src={item.image}
                   alt={item.title}
                   fill
-                  className="object-contain"
+                  className="object-cover"
                 />
               </motion.div>
             </div>

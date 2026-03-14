@@ -16,7 +16,7 @@ const products = [
   {
     title: "Needle Cutter",
     image: "/bag/Needle-Cutter.webp",
-    href:"https://sharpcontainermanufacturer.com/"
+    href:"https://sharpcontainermanufacturer.com/needle-cutter"
   },
   {
     title: "Wringer Trolley",

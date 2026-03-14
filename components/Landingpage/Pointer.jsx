@@ -73,12 +73,12 @@ export default function PolywellTrustStatsSection() {
             />
             <MediaStatCard
               imgSrc="/pointer2.jpeg"
-              title="1,20,000+ sq. ft. Manufacturing Infrastructure"
+              title="73,800+ sq. ft. Manufacturing Infrastructure"
               desc="High-capacity production facility engineered for institutional-grade and tender-based bulk supply."
             />
             <MediaStatCard
               imgSrc="/pointer3.jpeg"
-              title="1.8 Million+ Units Supplied Annually"
+              title="5.5 Million+ Units Supplied Annually"
               desc="From hospital dustbins and biomedical waste bins to garbage bags and sanitation products — manufactured and delivered in bulk volumes."
             />
             <MediaStatCard

@@ -30,7 +30,7 @@ export default function WhyChooseSangam() {
                 <span className="font-semibold text-gray-900">
                   Extensive Industry Experience:
                 </span>{" "}
-                With over 30 years in the plastics and waste management industry, we have earned 
+                With over 50 years in the plastics and waste management industry, we have earned 
                 the trust of businesses and institutions across India.
               </p>
             </div>
