@@ -28,7 +28,7 @@ export const categories = [
       "items": [
         "The Disposable Plastic Garbage Bag is manufactured by Sangam Plastic Industries Pvt. Ltd. under the trusted Polywell brand, delivering high-strength waste management solutions for demanding household use.",
         "Designed with an impressive load-bearing capacity, this garbage bag is suitable for handling heavy domestic waste without tearing or bursting.",
-        "Made from premium-quality HDPE (High-Density Polyethylene), the bag ensures superior strength, durability, and resistance to punctures.",
+        "Made from premium-quality LDPE (High-Density Polyethylene), the bag ensures superior strength, durability, and resistance to punctures.",
         "The 19x21 inch size is engineered to provide proper dustbin fitting while maintaining structural integrity under heavy loads.",
         "Ideal for household applications where stronger and more durable waste disposal solutions are required for bulk or dense waste materials."
       ]
@@ -39,7 +39,7 @@ export const categories = [
       "items": [
         "Size – 19x21 Inch: Suitable for compatible household bins and containers requiring strong lining support.",
         "Capacity – Designed to withstand heavy waste loads without compromising performance.",
-        "Material – HDPE: High-Density Polyethylene construction ensures enhanced tensile strength and durability.",
+        "Material – LDPE: High-Density Polyethylene construction ensures enhanced tensile strength and durability.",
         "Usage/Application – Household: Ideal for homes requiring reliable waste disposal for heavier garbage output.",
         "Features – Leak Proof: Strong bottom sealing prevents liquid leakage and maintains cleanliness.",
         "Brand – Polywell: Recognized brand known for consistent quality and dependable garbage bag solutions."
@@ -49,7 +49,7 @@ export const categories = [
     {
       "type": "ul",
       "items": [
-        "Heavy-duty HDPE material provides exceptional load-bearing strength",
+        "Heavy-duty LDPE material provides exceptional load-bearing strength",
         "Leak-proof sealing technology minimizes spillage and supports hygienic waste handling.",
         "Tear-resistant structure ensures durability during lifting, tying, and transportation.",
         "Designed for safe handling of both dry and wet household waste.",
@@ -72,10 +72,12 @@ export const categories = [
   "specs": [
     { "label": "Size", "value": "19x21 Inch" },
     { "label": "Color", "value": "All Color" },
-    { "label": "Material", "value": "HDPE" },
-    { "label": "Usage/Application", "value": "Household" },
+    { "label": "Material", "value": "LDPE" },
+    { "label": "Usage/Application", "value": "BIO-MEDICAL/Household" },
+  
     { "label": "Features", "value": "Leak Proof" },
     { "label": "Brand", "value": "Polywell" }
+
   ],
 
   "image": [
