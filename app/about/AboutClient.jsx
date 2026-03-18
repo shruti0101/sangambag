@@ -8,14 +8,17 @@ export default function AboutPage() {
 
       {/* HERO */}
          <section
-        style={{ backgroundImage: "url('/bag/bgother.png')" }}
-        className="w-full bg-cover bg-center h-[50vh] md:h-[90vh] relative"
+        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
+        className="w-full  bg-cover bg-center h-[50vh] md:h-[90vh] relative"
       >
         <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
-          <h2 className=" text-white p-2 text-2xl md:text-6xl font-bold z-10">
+          <h2 className=" text-black bg-white p-2 text-2xl md:text-6xl font-bold z-10">
       About Us
           </h2>
         </div>
+
+<div className="absolute inset-0 bg-black/30"></div>
+
 
            <div className="absolute inset-0 bg-black/30"></div>
       </section>

@@ -57,7 +57,7 @@ return (
     className="absolute inset-0"
   >
     <Image
-      src="/bag/hero.png"
+      src="/bag/bg-other.webp"
       alt="Garbage Bags"
       fill
       priority

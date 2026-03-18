@@ -84,7 +84,7 @@ Contact: ${phone}`;
     <div className="fixed inset-0 flex items-center justify-center bg-black/40 z-50">
       <div
         className="relative rounded-3xl shadow-2xl p-10 max-w-sm md:max-w-2xl text-white bg-cover bg-center"
-        style={{ backgroundImage: "url(/bag/try2.jpg)" }}
+        style={{ backgroundImage: "url(/bag/try2.webp)" }}
       >
 
 

@@ -77,7 +77,7 @@ Contact: ${phone}`;
 
       {/* HERO SECTION */}
       <section
-        style={{ backgroundImage: "url('/bag/bgother.png')" }}
+        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
         className="w-full h-[55vh] md:h-[80vh] bg-cover bg-center relative flex items-center justify-center"
       >
         <div className="absolute inset-0 bg-black/60"></div>

@@ -320,7 +320,7 @@ const Location = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="w-full">
                         <img
-                            src="/bag/try2.jpg"
+                            src="/bag/try2.webp"
                             alt="Key Features"
                             className="w-full h-[28rem] object-cover transition-transform duration-700 group-hover:scale-105"
                             style={{ objectPosition: "50% 70%" }}
@@ -577,7 +577,7 @@ const Location = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="w-full">
                         <img
-                            src="/bag/bgother.png"
+                            src="/bag/bg-other.webp"
                             alt="Premium Dates Supplier in Delhi NCR"
                             className="w-full h-102 object-cover rounded-2xl shadow-xl"
                         />

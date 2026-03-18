@@ -76,7 +76,7 @@ export default function WhyChooseSangam() {
         {/* RIGHT IMAGE */}
         <div className="relative w-full h-[420px] md:h-[520px] rounded-xl overflow-hidden ">
           <Image
-            src="/bag/try2.jpg"
+            src="/bag/try2.webp"
             alt="Garbage Bag Manufacturing"
             fill
             className="object-cover"

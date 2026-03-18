@@ -69,7 +69,7 @@ export default function ProductPage({ params }) {
 
       <section className="relative w-full h-[55vh] md:h-[85vh] overflow-hidden">
         <Image
-          src="/bag/bgother.png"
+          src="/bag/bg-other.webp"
           alt="Garbage Bag Manufacturer"
           fill
           priority
@@ -78,15 +78,15 @@ export default function ProductPage({ params }) {
 
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/40 to-transparent" />
 
-        <div className="relative z-10 flex h-full items-center max-w-7xl mx-auto px-6">
-          <div className="text-white max-w-2xl">
+        <div className="relative  z-10 flex h-full items-center max-w-7xl mx-auto px-6">
+          <div className="text-emerald-700 max-w-2xl bg-white p-5 rounded">
        
 
             <h1 className="text-3xl md:text-6xl font-bold leading-tight mt-3">
               {product.name}
             </h1>
 
-            <p className="mt-4 text-gray-100">
+            <p className="mt-4 bg-white text-yellow-500">
               Premium Quality Disposable Garbage Bags for Commercial & Medical
               Use
             </p>
