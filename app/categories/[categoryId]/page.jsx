@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
 
   if (!category) {
     return {
-      title: "Category Not Found | SBS Machinery",
+      title: "Category Not Found ",
       description: "The requested category does not exist.",
     };
   }

@@ -24,11 +24,11 @@ export async function generateMetadata({ params }) {
   const blog = await getBlog(params.slug);
 
   return {
-    title: blog?.metaTitle || blog?.title || "Blog | SBS Studio",
+    title: blog?.metaTitle || blog?.title || "Blog |  Studio",
     description:
       blog?.metaDescription ||
       blog?.excerpt ||
-      "Read the latest insights and updates from SBS Studio.",
+      "Read the latest insights and updates from Studio.",
   };
 }
 
