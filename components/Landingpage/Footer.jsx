@@ -54,27 +54,8 @@ const Footer = () => {
           <p className="text-sm flex items-center gap-2 mb-4">
             <FaEnvelope className="text-yellow-500" /> info@polywell.co.in
           </p>
-          {/* Social Icons */}
-          {/* <div className="flex gap-3">
-            <a
-              href="https://www.youtube.com/@smallbusinesssolution"
-              className="p-2 bg-black rounded-full hover:bg-yellow-500 transition"
-            >
-              <FaYoutube />
-            </a>
-            <a
-              href="https://www.facebook.com/SBS.COMPANY777?mibextid=ZbWKwL"
-              className="p-2 bg-black rounded-full hover:bg-yellow-500 transition"
-            >
-              <FaFacebookF />
-            </a>
-            <a
-              href="https://www.instagram.com/sbs_manufacturers/?igsh=MTRjNDE4NmVhdmwydQ%3D%3D#"
-              className="p-2 bg-black rounded-full hover:bg-yellow-500 transition"
-            >
-              <FaInstagram />
-            </a>
-          </div> */}
+      
+         
         </div>
 
         {/* Main Links */}
