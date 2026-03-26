@@ -14,7 +14,7 @@ export default function ContactForm() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsOpen(true), 5000);
+    const timer = setTimeout(() => setIsOpen(true), 15000);
     return () => clearTimeout(timer);
   }, []);
 
@@ -55,7 +55,7 @@ Contact: ${phone}`;
 
         setTimeout(() => {
           window.open(
-            `https://wa.me/919810316441?text=${encodeURIComponent(
+            `https://wa.me/919810057441?text=${encodeURIComponent(
               whatsappText
             )}`,
             "_blank"

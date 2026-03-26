@@ -121,7 +121,7 @@ export default function Navbar() {
         {/* RIGHT SIDE DESKTOP */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="https://wa.me/919810316441"
+            href="https://wa.me/919810057441"
             target="_blank"
             className="w-12 h-12 flex items-center justify-center 
             bg-gradient-to-br from-[#25D366] to-[#128C7E]
@@ -207,7 +207,7 @@ export default function Navbar() {
             </Link>
 
             <a
-              href="https://wa.me/919810316441"
+              href="https://wa.me/919810057441"
               target="_blank"
               className="flex items-center gap-2 text-green-600 font-medium"
             >
