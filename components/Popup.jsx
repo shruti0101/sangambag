@@ -55,7 +55,7 @@ Contact: ${phone}`;
 
         setTimeout(() => {
           window.open(
-            `https://wa.me/919810057441?text=${encodeURIComponent(
+            `https://wa.me/918810422935?text=${encodeURIComponent(
               whatsappText
             )}`,
             "_blank"

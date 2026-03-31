@@ -100,8 +100,8 @@ Contact: ${phone}`;
           <div className="bg-green-700 text-white p-8 rounded-2xl shadow-lg text-center">
             <Phone size={40} className="mx-auto mb-4" />
             <h3 className="text-xl font-bold mb-2">Call Us</h3>
+            <p className="text-lg">+91-8810422935</p>
             <p className="text-lg">+91-9810057441</p>
-            <p className="text-lg">+91-9810026034</p>
           </div>
 
           {/* Email */}

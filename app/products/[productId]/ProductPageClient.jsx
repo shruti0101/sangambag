@@ -185,7 +185,7 @@ hover:-translate-y-1 font-semibold"
               </button>
 
               <a
-                href={`https://wa.me/+919810057441?text=Hello I am interested in ${product.name}`}
+                href={`https://wa.me/+918810422935?text=Hello I am interested in ${product.name}`}
                 target="_blank"
                 className="py-3 text-center rounded-xl border 
 border-green-500 text-green-600 hover:bg-green-500 

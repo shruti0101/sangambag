@@ -46,10 +46,10 @@ const Footer = () => {
             Manufacturing Address Spread Across Delhi NCR
           </p>
           <p className="text-sm flex items-center gap-2 mb-2">
-            <FaPhoneAlt className="text-yellow-500" /> +91-9810057441
+            <FaPhoneAlt className="text-yellow-500" /> +91-8810422935
           </p>
           <p className="text-sm flex items-center gap-2 mb-2">
-            <FaPhoneAlt className="text-yellow-500" /> +91-9810026034
+            <FaPhoneAlt className="text-yellow-500" /> +91-9810057441 
           </p>
           <p className="text-sm flex items-center gap-2 mb-4">
             <FaEnvelope className="text-yellow-500" /> info@polywell.co.in
