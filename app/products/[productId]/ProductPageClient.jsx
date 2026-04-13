@@ -6,6 +6,8 @@ import Image from "next/image";
 import Head from "next/head";
 import Enquiry from "@/components/Enquiry";
 import { Shield, Droplet, Dumbbell, Recycle } from "lucide-react";
+import { redirect } from "next/navigation";
+
 export default function ProductPage({ params }) {
   const { productId } = React.use(params);
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -18,9 +20,7 @@ export default function ProductPage({ params }) {
   const [origin, setOrigin] = useState("50% 50%");
 
   if (!product) {
-    return (
-      <h2 className="text-center text-red-500 mt-10">Product not found</h2>
-    );
+    redirect("/");
   }
 
   const handleMouseMove = (e) => {
@@ -80,7 +80,7 @@ export default function ProductPage({ params }) {
 
         <div className="relative  z-10 flex h-full items-center max-w-7xl mx-auto px-6">
           <div className="text-emerald-700 max-w-2xl bg-white p-5 rounded">
-       
+
 
             <h1 className="text-3xl md:text-6xl font-bold leading-tight mt-3">
               {product.name}
@@ -108,7 +108,7 @@ export default function ProductPage({ params }) {
                 className="relative w-full h-[600px] overflow-hidden cursor-zoom-in"
                 onMouseEnter={() => setIsZoomed(true)}
                 onMouseLeave={() => setIsZoomed(false)}
-                onMouseMove={handleMouseMove} 
+                onMouseMove={handleMouseMove}
               >
                 <Image
                   src={activeImage.src}
@@ -123,7 +123,7 @@ export default function ProductPage({ params }) {
               </div>
 
               {/* Thumbnails */}
-{/* 
+              {/* 
               <div className="flex gap-3 mt-5">
                 {product.image.map((img, i) => (
                   <button
@@ -152,7 +152,7 @@ ${
 
           {/* ===== SPECIFICATIONS ===== */}
 
-          <div  className=" rounded-3xl p-6 shadow-[0_10px_40px_rgba(0,0,0,0.06)]">
+          <div className=" rounded-3xl p-6 shadow-[0_10px_40px_rgba(0,0,0,0.06)]">
             <h2 className="text-3xl font-semibold mb-6">
               Technical Specifications
             </h2>
@@ -209,7 +209,7 @@ transition-all duration-300 font-semibold"
 
 
 
-      
+
 
 
 
@@ -220,10 +220,10 @@ transition-all duration-300 font-semibold"
       </section>
 
 
-        {/* ===== DESCRIPTION ===== */}
-<section style={{backgroundImage:"url(/bag/descbg.png)"}} className="w-full bg-center p-6 md:p-10 bg-cover">
+      {/* ===== DESCRIPTION ===== */}
+      <section style={{ backgroundImage: "url(/bag/descbg.png)" }} className="w-full bg-center p-6 md:p-10 bg-cover">
 
-  <div  className=" mt-10 max-w-4xl">
+        <div className=" mt-10 max-w-4xl">
           <h2 className="text-3xl md:text-5xl font-semibold mb-6">Product Overview</h2>
 
           <div className="space-y-4 text-black leading-relaxed">
@@ -244,29 +244,29 @@ transition-all duration-300 font-semibold"
                     />
                   );
 
-              if (block.type === "ul")
-return (
-<ul key={i} className="space-y-3 mt-3">
+                if (block.type === "ul")
+                  return (
+                    <ul key={i} className="space-y-3 mt-3">
 
-{block.items.map((item, j) => (
-<li
-key={j}
-className="flex items-start gap-3 text-black text-[18px] leading-relaxed"
->
+                      {block.items.map((item, j) => (
+                        <li
+                          key={j}
+                          className="flex items-start gap-3 text-black text-[18px] leading-relaxed"
+                        >
 
-<span className="material-symbols-outlined  text-[30px] mt-[2px]">
-eco
-</span>
+                          <span className="material-symbols-outlined  text-[30px] mt-[2px]">
+                            eco
+                          </span>
 
-<span
-dangerouslySetInnerHTML={{ __html: item }}
-/>
+                          <span
+                            dangerouslySetInnerHTML={{ __html: item }}
+                          />
 
-</li>
-))}
+                        </li>
+                      ))}
 
-</ul>
-);
+                    </ul>
+                  );
 
               })
             ) : (
@@ -274,39 +274,39 @@ dangerouslySetInnerHTML={{ __html: item }}
             )}
           </div>
         </div>
-</section>
+      </section>
 
-      
- <section className="relative w-full overflow-hidden bg-[#07382D] py-18 px-6">
-      
-      {/* Dotted Grid Background */}
-      <div className="absolute inset-0 bg-[radial-gradient(rgba(255,200,0,0.08)_1px,transparent_1px)] [background-size:30px_30px] opacity-20"></div>
 
-      {/* Subtle Radial Glow */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,200,0,0.08),transparent_70%)]"></div>
+      <section className="relative w-full overflow-hidden bg-[#07382D] py-18 px-6">
 
-      <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 text-center">
-        {features.map((item, index) => (
-          <div key={index} className="flex flex-col items-center">
-            
-            {/* Icon Circle */}
-            <div className="w-20 h-20 flex items-center justify-center rounded-full border border-yellow-500/40 text-yellow-400 bg-yellow-500/5 shadow-[0_0_25px_rgba(255,200,0,0.1)]">
-              {item.icon}
+        {/* Dotted Grid Background */}
+        <div className="absolute inset-0 bg-[radial-gradient(rgba(255,200,0,0.08)_1px,transparent_1px)] [background-size:30px_30px] opacity-20"></div>
+
+        {/* Subtle Radial Glow */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,200,0,0.08),transparent_70%)]"></div>
+
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 text-center">
+          {features.map((item, index) => (
+            <div key={index} className="flex flex-col items-center">
+
+              {/* Icon Circle */}
+              <div className="w-20 h-20 flex items-center justify-center rounded-full border border-yellow-500/40 text-yellow-400 bg-yellow-500/5 shadow-[0_0_25px_rgba(255,200,0,0.1)]">
+                {item.icon}
+              </div>
+
+              {/* Title */}
+              <h3 className="mt-6 text-xl tracking-[2px] font-semibold text-white">
+                {item.title}
+              </h3>
+
+              {/* Description */}
+              <p className="mt-4 text-md text-white max-w-xs leading-relaxed">
+                {item.desc}
+              </p>
             </div>
-
-            {/* Title */}
-            <h3 className="mt-6 text-xl tracking-[2px] font-semibold text-white">
-              {item.title}
-            </h3>
-
-            {/* Description */}
-            <p className="mt-4 text-md text-white max-w-xs leading-relaxed">
-              {item.desc}
-            </p>
-          </div>
-        ))}
-      </div>
-    </section>
+          ))}
+        </div>
+      </section>
 
     </>
   );
