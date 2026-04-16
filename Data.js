@@ -16,7 +16,7 @@ export const categories = [
     products: [
       // product 1
 {
-  "id": "DisposablePlasticGarbageBag",
+  "id": "disposable-plastic-garbage-bag",
   "name": "Disposable Plastic Garbage Bag",
   "metaTitle": "Disposable Plastic Garbage Bag",
   "metaDescription": "Disposable Plastic Garbage Bag",
@@ -92,7 +92,7 @@ export const categories = [
 // product 2
 
 {
-  "id": "CompostableBiodegradableGarbageBags",
+  "id": "compostable-biodegradable-garbage-bags",
   "name": "Compostable Biodegradable Garbage Bags",
   "metaTitle": "Compostable Biodegradable Garbage Bags",
   "metaDescription": "Compostable Biodegradable Garbage Bags",
@@ -171,7 +171,7 @@ export const categories = [
 // 3
 
 {
-  "id": "PrintedBiodegradableGarbageBags",
+  "id": "printed-biodegradable-garbage-bags",
   "name": "Printed Biodegradable Garbage Bags",
   "metaTitle": "Printed Biodegradable Garbage Bags |  Medical Waste",
   "metaDescription": "Printed Biodegradable Garbage Bags designed for medical waste disposal. Antimicrobial, 24x32 inch size, Made in India, In Stock.",
@@ -246,7 +246,7 @@ export const categories = [
 // product 4
 
 {
-  "id": "BlackPlasticTrashBags",
+  "id": "black-plastic-trash-bags",
   "name": "Black Plastic Trash Bags",
   "metaTitle": "Black Plastic Trash Bags | 500gm to 10kg Capacity",
   "metaDescription": "Black Plastic Trash Bags available in 500gm to 10kg capacity for garbage collection. Durable plastic material with plain pattern and bag packing.",
@@ -319,7 +319,7 @@ export const categories = [
 // product 5
 
 {
-  "id": "BiodegradableTrashBags",
+  "id": "biodegradable-trash-bags",
   "name": "Biodegradable Trash Bags",
   "metaTitle": "Biodegradable Trash Bags | Eco Friendly Laminated Material",
   "metaDescription": "Biodegradable Trash Bags made from laminated material with customized storage capacity. Reusable, eco-friendly and suitable for household waste disposal.",
@@ -410,7 +410,7 @@ export const categories = [
     products: [
       // product 1
 {
-  "id": "PlasticDisposableGarbageBag",
+  "id": "plastic-disposable-garbage-bag",
   "name": " Plastic Disposable Garbage Bag",
   "metaTitle": " Plastic Disposable Garbage Bag",
   "metaDescription": " Plastic Disposable Garbage Bag",
@@ -483,7 +483,7 @@ export const categories = [
       // product 2
 
 {
-  "id": "20x24DisposableGarbageBags",
+  "id": "20x24-inch-disposable-garbage-bags",
   "name": "20 x 24 inch Disposable Garbage Bags",
   "metaTitle": "20 x 24 inch Disposable Garbage Bags",
   "metaDescription": "20 x 24 inch Disposable Garbage Bags",
@@ -556,7 +556,7 @@ export const categories = [
       // product 3
 
    {
-  "id": "BiohazardDisposableBags",
+  "id": "biohazard-disposable-bags",
   "name": " Biohazard Disposable Bags",
   "metaTitle": " Biohazard Disposable Bags",
   "metaDescription": " Biohazard Disposable Bags",
@@ -629,7 +629,7 @@ export const categories = [
       // product 4
 
     {
-  "id": "19x21InchPlasticGarbageBags",
+  "id": "19x21-inch-plastic-garbage-bags",
   "name": "19x21 Inch Plastic Garbage Bags",
   "metaTitle": "19x21 Inch Plastic Garbage Bags",
   "metaDescription": "19x21 Inch Plastic Garbage Bags",
@@ -703,7 +703,7 @@ export const categories = [
       // product 5
 
    {
-  "id": "10LBiohazardGarbageBag",
+  "id": "10L-biohazard-garbage-bag",
   "name": "10L Biohazard Garbage Bag",
   "metaTitle": "10L Biohazard Garbage Bag",
   "metaDescription": "10L Biohazard Garbage Bag",
@@ -775,7 +775,7 @@ export const categories = [
 
 
 {
-  "id": "15LBiohazardGarbageBag",
+  "id": "15L-biohazard-garbage-bag",
   "name": "15L Biohazard Garbage Bag",
   "metaTitle": "15L Biohazard Garbage Bag",
   "metaDescription": "15L Biohazard Garbage Bag",
@@ -870,7 +870,7 @@ export const categories = [
 // 2
 
 {
-  "id": "BiodegradableGarbageBags",
+  "id": "biodegradable-garbage-bags",
   "name": "Biodegradable Garbage Bags",
   "metaTitle": "Biodegradable Garbage Bags",
   "metaDescription": "Biodegradable Garbage Bags",
@@ -939,7 +939,7 @@ export const categories = [
 // 5
 
 {
-  "id": "GarbageAndWasteBags",
+  "id": "garbage-and-waste-bags",
   "name": "Garbage and Waste Bags",
   "metaTitle": "Garbage and Waste Bags",
   "metaDescription": "Garbage and Waste Bags",
@@ -1016,7 +1016,7 @@ export const categories = [
 // 6
 
 {
-  "id": "AutoclavableDisposableBag",
+  "id": "autoclavable-disposable-bag",
   "name": "Autoclavable Disposable Bag",
   "metaTitle": "Autoclavable Disposable Bag",
   "metaDescription": "Autoclavable Disposable Bag",
@@ -1088,7 +1088,7 @@ export const categories = [
 
 
 {
-  "id": "50LBioDegradableBioHazardBag",
+  "id": "50L-bio-degradable-bio-hazard-bag",
   "name": "50L Bio Degradable Bio Hazard Bag",
   "metaTitle": "50L Bio Degradable Bio Hazard Bag",
   "metaDescription": "50L Bio Degradable Bio Hazard Bag",
