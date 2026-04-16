@@ -23,8 +23,10 @@ export const metadata = {
   title: " Plastic Garbage Bag Manufacturer & Bulk Supplier | Sangam Plastic Industries",
   description:
     "Premium Quality Garbage Bags for Reliable Waste Management – Durable, Eco-Friendly & Bulk Supplies from Leading Manufacturer Since 1988.",
-  icons: {
-    icon: "/logo.webp",
+   icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
