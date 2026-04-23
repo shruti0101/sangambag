@@ -84,6 +84,11 @@ const Footer = () => {
                 Contact us
               </a>
             </li>
+            <li>
+              <a href="/sitemap" className="hover:text-yellow-500">
+                Sitemap 
+              </a>
+            </li>
 
 
           </ul>
