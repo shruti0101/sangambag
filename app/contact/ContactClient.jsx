@@ -11,7 +11,7 @@ export default function ContactPage() {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
-  const [city, setCity] = useState("");
+  const [place, setplace] = useState("");
   const [requirement, setRequirement] = useState("");
   const [message, setMessage] = useState("");
 
@@ -27,7 +27,7 @@ export default function ContactPage() {
         name,
         phone,
         email,
-        city,
+        place,
         product: requirement,
         message,
       };
@@ -40,32 +40,34 @@ export default function ContactPage() {
       if (data?.success) {
         setStatus("success");
 
-        const whatsappText = `Hi, I am ${name}.
-Email: ${email}
-Product: ${requirement}
-City: ${city}
-Message: ${message}
-Contact: ${phone}`;
+        // const whatsappText = `Hi, I am ${name}.
+        //   Email: ${email}
+        //   Product: ${requirement}
+        //   City: ${place}
+        //   Message: ${message}
+        //   Contact: ${phone}`;
 
-        setTimeout(() => {
-          window.open(
-            `https://wa.me/91XXXXXXXXXX?text=${encodeURIComponent(
-              whatsappText
-            )}`,
-            "_blank"
-          );
-        }, 1000);
+        // setTimeout(() => {
+        //   window.open(
+        //     `https://wa.me/91XXXXXXXXXX?text=${encodeURIComponent(
+        //       whatsappText
+        //     )}`,
+        //     "_blank"
+        //   );
+        // }, 1000);
 
         setName("");
         setPhone("");
         setEmail("");
-        setCity("");
+        setplace("");
         setRequirement("");
         setMessage("");
       } else {
         setStatus("error");
       }
     } catch (error) {
+      console.log(error);
+      
       setStatus("error");
     } finally {
       setLoading(false);
@@ -164,8 +166,8 @@ Contact: ${phone}`;
                   type="text"
                   placeholder="City"
                   className="border rounded-lg px-4 py-3 w-full"
-                  value={city}
-                  onChange={(e) => setCity(e.target.value)}
+                  value={place}
+                  onChange={(e) => setplace(e.target.value)}
                 />
 
                 <select
