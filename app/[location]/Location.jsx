@@ -1,6 +1,7 @@
 "use client";
-import { BadgeCheck, ChevronDown, Hospital } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
+import { Hospital } from "lucide-react";
 import { useParams } from "next/navigation";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
@@ -102,6 +103,124 @@ const Location = () => {
                             className="object-contain"
                         />
                     </motion.div>
+                </div>
+            </section>
+
+
+
+                {/* Workstation  */}
+            <section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100">
+                <h2 className="text-center text-2xl md:text-[42px] font-bold mb-2">
+                    Garbage Bag Types We Offer
+                </h2>
+                <p className="text-center text-black mb-4 text-lg">
+                    Garbage Bag Product Range
+                </p>
+
+                <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
+                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
+                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
+                            <img
+                                src="/bag/product/20 x 24 inch Disposable Garbage Bags.webp"
+                                alt="loading"
+                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                            />
+                        </div>
+                        <h3 className="font-semibold text-lg mb-2">Disposable Garbage Bags</h3>
+                        <p className="text-black text-sm leading-relaxed">
+                       Ideal for daily household and office waste disposal needs efficiently and hygienically.
+
+
+                        </p>
+
+                         <a
+              href={`https://wa.me/+918810422935?text=Hi, I'm interested in Disposable Garbage Bags`}
+              target="_blank"
+              onClick={(e) => e.stopPropagation()} className="bg-green-500 px-3 py-2 mt-3 capitalize rounded-sm text-white text-md md:text-lg flex items-center justify-center gap-2"><FaWhatsapp size={25}/> whatsapp now</a>
+
+
+                    </div>
+                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
+                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
+                            <img
+                                src="/bag/product/1.webp"
+                                alt="loading"
+                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                            />
+                        </div>
+                        <h3 className="font-semibold text-lg mb-2">Heavy-Duty Garbage Bags</h3>
+                        <p className="text-black text-sm leading-relaxed">
+                            Designed for industrial and commercial waste with higher load capacity.
+                        </p>
+
+
+
+      <a
+              href={`https://wa.me/+918810422935?text=Hi, I'm interested in Heavy-Duty Garbage Bags`}
+              target="_blank"
+              onClick={(e) => e.stopPropagation()} className="bg-green-500 px-3 py-2 mt-3 capitalize rounded-sm text-white text-md md:text-lg flex items-center justify-center gap-2"><FaWhatsapp size={25}/> whatsapp now</a>
+
+                    </div>
+                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
+                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
+                            <img
+                                src="/bag/product/Garbage and Waste Bags.webp"
+                                alt="loading"
+                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                            />
+                        </div>
+                        <h3 className="font-semibold text-lg mb-2">Color-Coded Garbage Bags</h3>
+                        <p className="text-black text-sm leading-relaxed">
+                            Used for waste segregation in hospitals, offices, and municipal waste systems.
+                        </p>
+
+
+      <a
+              href={`https://wa.me/+918810422935?text=Hi, I'm interested in Color-Coded Garbage Bags`}
+              target="_blank"
+              onClick={(e) => e.stopPropagation()} className="bg-green-500 px-3 py-2 mt-3 capitalize rounded-sm text-white text-md md:text-lg flex items-center justify-center gap-2"><FaWhatsapp size={25}/> whatsapp now</a>
+
+                        
+                    </div>
+                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
+                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
+                            <img
+                                src="/bag/product/Biodegradable Dustbin Cover.webp"
+                                alt="loading"
+                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                            />
+                        </div>
+                        <h3 className="font-semibold text-lg mb-2">Biomedical Waste Garbage Bags</h3>
+                        <p className="text-black text-sm leading-relaxed">
+                            Specially designed bags used in hospitals and clinics for safe biomedical waste management.
+                        </p>
+
+      <a
+              href={`https://wa.me/+918810422935?text=Hi, I'm interested in Biomedical Waste Garbage Bags`}
+              target="_blank"
+              onClick={(e) => e.stopPropagation()} className="bg-green-500 px-3 py-2 mt-3 capitalize rounded-sm text-white text-md md:text-lg flex items-center justify-center gap-2"><FaWhatsapp size={25}/> whatsapp now</a>
+                        
+                    </div>
+                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
+                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
+                            <img
+                                src="/bag/product/10L Biohazard Garbage Bag.webp"
+                                alt="loading"
+                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                            />
+                        </div>
+                        <h3 className="font-semibold text-lg mb-2">Large Capacity Garbage Bags</h3>
+                        <p className="text-black text-sm leading-relaxed">
+                          Suitable for hotels, large facilities, and municipal waste collection operations efficiently and reliably.
+                        </p>
+
+      <a
+              href={`https://wa.me/+918810422935?text=Hi, I'm interested in Large Capacity Garbage Bags`}
+              target="_blank"
+              onClick={(e) => e.stopPropagation()} className="bg-green-500 px-3 py-2 mt-3 capitalize rounded-sm text-white text-md md:text-lg flex items-center justify-center gap-2"><FaWhatsapp size={25}/> whatsapp now</a>
+
+
+                    </div>
                 </div>
             </section>
 
@@ -237,83 +356,7 @@ const Location = () => {
                 </div>
             </section>
 
-            {/* Workstation  */}
-            <section className="mx-auto lg:px-15 px-5 py-8 bg-gray-100">
-                <h2 className="text-center text-2xl md:text-[42px] font-bold mb-2">
-                    Garbage Bag Types We Offer
-                </h2>
-                <p className="text-center text-black mb-4 text-lg">
-                    Garbage Bag Product Range
-                </p>
-
-                <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
-                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                            <img
-                                src="/bag/product/20 x 24 inch Disposable Garbage Bags.webp"
-                                alt="loading"
-                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                            />
-                        </div>
-                        <h3 className="font-semibold text-lg mb-2">Disposable Garbage Bags</h3>
-                        <p className="text-black text-sm leading-relaxed">
-                            Ideal for daily household and office waste disposal.
-                        </p>
-                    </div>
-                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                            <img
-                                src="/bag/product/1.webp"
-                                alt="loading"
-                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                            />
-                        </div>
-                        <h3 className="font-semibold text-lg mb-2">Heavy-Duty Garbage Bags</h3>
-                        <p className="text-black text-sm leading-relaxed">
-                            Designed for industrial and commercial waste with higher load capacity.
-                        </p>
-                    </div>
-                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                            <img
-                                src="/bag/product/Garbage and Waste Bags.webp"
-                                alt="loading"
-                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                            />
-                        </div>
-                        <h3 className="font-semibold text-lg mb-2">Color-Coded Garbage Bags</h3>
-                        <p className="text-black text-sm leading-relaxed">
-                            Used for waste segregation in hospitals, offices, and municipal waste systems.
-                        </p>
-                    </div>
-                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                            <img
-                                src="/bag/product/Biodegradable Dustbin Cover.webp"
-                                alt="loading"
-                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                            />
-                        </div>
-                        <h3 className="font-semibold text-lg mb-2">Biomedical Waste Garbage Bags</h3>
-                        <p className="text-black text-sm leading-relaxed">
-                            Specially designed bags used in hospitals and clinics for safe biomedical waste management.
-                        </p>
-                    </div>
-                    <div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition group">
-                        <div className="w-full h-40 flex items-center justify-center mb-3 overflow-hidden rounded-lg">
-                            <img
-                                src="/bag/product/10L Biohazard Garbage Bag.webp"
-                                alt="loading"
-                                className="h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                            />
-                        </div>
-                        <h3 className="font-semibold text-lg mb-2">Large Capacity Garbage Bags</h3>
-                        <p className="text-black text-sm leading-relaxed">
-                            Suitable for hotels, large facilities, and municipal waste collection.
-                        </p>
-                    </div>
-                </div>
-            </section>
+        
 
             {/* Key features  */}
             <section className="mx-auto lg:px-15 px-5 py-8">
