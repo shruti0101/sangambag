@@ -42,7 +42,7 @@ export default function IndustriesSection() {
         className="hidden xl:block absolute top-10 right-[0%]">
       </Image>
 
-      <div className="max-w-7xl mx-auto text-center mb-14">
+      <div className="max-w-7xl mx-auto text-center mb-7 md:mb-14">
         <p className="text-green-600 font-semibold uppercase text-sm mb-4">
           Industries & Applications
         </p>

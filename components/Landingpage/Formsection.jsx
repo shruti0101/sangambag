@@ -28,7 +28,7 @@ export default function TrustedServiceProcessSection() {
   ];
 
   return (
-    <section className="relative w-full py-14 overflow-hidden bg-gradient-to-b from-green-50 via-white to-white">
+    <section className="relative w-full py-6 md:py-12 overflow-hidden bg-gradient-to-b from-green-50 via-white to-white">
 
       {/* Background Decorative Shapes */}
       <div className="absolute -top-32 -left-32 w-[500px] h-[500px] bg-green-200 rounded-full blur-3xl opacity-30" />
@@ -61,7 +61,7 @@ export default function TrustedServiceProcessSection() {
         </motion.div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
 
           {features.map((item, i) => {
             const Icon = item.icon;
@@ -73,7 +73,7 @@ export default function TrustedServiceProcessSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: i * 0.15 }}
                 viewport={{ once: true }}
-                className="group relative bg-white rounded-3xl p-8 border border-gray-200 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden"
+                className="group relative bg-white rounded-3xl p-6 md:p-8 border border-gray-200 shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden"
               >
                 {/* Hover Background Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-emerald-600 opacity-0 group-hover:opacity-100 transition duration-500" />

@@ -11,7 +11,7 @@ const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <footer style={{ backgroundImage: "url(/bag/footebg.jpg)" }} className="relative bg-center bg-cover text-white px-5 py-2">
+    <footer style={{ backgroundImage: "url(/bag/footebg.jpg)" }} className="relative bg-center bg-cover text-white px-5 py-4 md:py-2">
       {/* Watermark */}
       <span className="hidden md:flex absolute mt-20 inset-0  items-center justify-center md:text-[7rem] font-extrabold  text-white/20 select-none pointer-events-none z-0">
         Sangam Plastic Industries
@@ -20,7 +20,7 @@ const Footer = () => {
       {/* Main Footer */}
       <div className="container mx-auto  md:py-10 grid grid-cols-1 md:grid-cols-5 gap-3">
         {/* About */}
-        <div>
+        <div className="mt-6 md:mt-0">
           <h3 className="text-xl font-semibold border-l-2 border-yellow-500 pl-2 mb-4">
             About Us
           </h3>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         {/* Contact Us */}
-        <div>
+        <div className="mt-6 md:mt-0">
           <h3 className="text-xl font-semibold border-l-2 border-yellow-500 pl-2 mb-4">
             Contact us
           </h3>
@@ -59,7 +59,8 @@ const Footer = () => {
         </div>
 
         {/* Main Links */}
-        <div>
+                <div className="mt-6 md:mt-0">
+
           <h3 className="text-xl sm:ml-8 font-semibold border-l-2 border-yellow-500 pl-2 mb-4">
             Main Menu
           </h3>
@@ -95,7 +96,8 @@ const Footer = () => {
         </div>
 
         {/* More Info */}
-        <div>
+                <div className="mt-6 md:mt-0">
+
           <h3 className="text-xl font-semibold border-l-2 border-yellow-500 pl-2 mb-4">
             More Information
           </h3>
@@ -161,7 +163,7 @@ const Footer = () => {
         </div>
 
         {/* Trust Elite Section */}
-        <div className="px-6 items-center md:pb-8">
+        <div className="px-6 mt-6 md:mt-0 items-center md:pb-8">
           <div>
             <h3 className="text-xl font-semibold border-l-2 border-yellow-500 pl-2 mb-4">
               Trust Elite Certificate

@@ -47,7 +47,7 @@ export default function TestimonialSlider() {
 
     <>
     
-    <section className="relative h-full w-full  bg-[url('/bag/leafbg.webp')] bg-cover bg-fixed  bg-center py-16 text-white">
+    <section className="relative h-full w-full  bg-[url('/bag/leafbg.webp')] bg-cover bg-fixed  bg-center py-8 md:py-16 text-white">
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#08372C]/20"></div>
 

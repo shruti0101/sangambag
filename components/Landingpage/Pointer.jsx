@@ -52,11 +52,11 @@ export default function PolywellTrustStatsSection() {
         >
          
 
-          <h2 className="text-[22px] sm:text-[26px] md:text-[40px] font-semibold text-[#0B2545]">
+          <h2 className="text-[28px]  md:text-[40px] font-semibold text-[#0B2545] leading-8 md:leading-9 ">
             Why Government & Institutional Buyers Trust Polywell
           </h2>
 
-          <p className="text-black mt-2 text-[12px] sm:text-[16px] md:text-[20px]">
+          <p className="text-black mt-2 text-[16px] sm:text-[16px] md:text-[22px]">
             Delivering scale, compliance, and execution certainty since 1988.
           </p>
         </motion.div>

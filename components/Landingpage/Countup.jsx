@@ -35,11 +35,11 @@ export default function HighQualityCTA() {
               }}
             />
 
-            <div className="relative w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-16 py-10 sm:py-14 flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
+            <div className="relative w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-16 py-8 md:py-10  flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
 
               {/* TEXT */}
               <div className="max-w-2xl">
-                <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-4">
+                <h2 className="text-white text-[28px]  md:text-4xl lg:text-5xl font-bold leading-tight mb-4">
                   Leak Proof. No Infection.
                 </h2>
 

@@ -27,11 +27,11 @@ const products = [
 
 export default function ProductsManufacturing() {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-6 md:py-10 bg-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Heading */}
-        <h2 className="text-center text-4xl md:text-5xl font-extrabold mb-14">
+        <h2 className="text-center text-4xl md:text-5xl font-extrabold mb-7 md:mb-11">
           <span className="text-black">OUR </span>
           <span className="text-green-600">PRODUCTS MANUFACTURING</span>
         </h2>

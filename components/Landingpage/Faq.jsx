@@ -47,7 +47,7 @@ export default function FAQ() {
   };
 
   return (
-    <section className="py-16 relative px-4 md:px-8 lg:px-16 bg-white">
+    <section className="py-8 md:py-16 relative px-4 md:px-8 lg:px-16 bg-white">
       {/* Heading */}
 
 <Image alt="bin" width={200} height={200} src="/bag/bin.webp" className="hidden md:block absolute top-0 right-10 "></Image>
@@ -55,7 +55,7 @@ export default function FAQ() {
 
 <Image alt="erf" width={300} height={300} src="/bag/trash.png" className="hidden md:block absolute top-0 left-0 "></Image>
 
-      <h2 className="text-4xl font-extrabold text-center mb-12 text-[#07342A]">
+      <h2 className="text-4xl font-extrabold text-center mb-6 md:mb-12 text-[#07342A]">
         Frequently Asked Questions
       </h2>
 

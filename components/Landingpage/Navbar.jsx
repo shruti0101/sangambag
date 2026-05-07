@@ -18,13 +18,20 @@ export default function Navbar() {
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+  const translateToHindi = () => {
+    const select = document.querySelector(".goog-te-combo");
+    if (select) {
+      select.value = "hi";
+      select.dispatchEvent(new Event("change"));
+    }
+  };
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 40);
     };
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    
   }, []);
 
   useEffect(() => {
@@ -32,27 +39,30 @@ export default function Navbar() {
     setMobileCategoryOpen(false);
   }, [pathname]);
 
-  return (
+  return (<>
     <header
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-500 ${scrolled
+      className={`fixed top-0 left-0 w-full z-[500] transition-all duration-500 ${
+        scrolled
           ? "bg-white/70 backdrop-blur-xl shadow-lg border-b border-white/20"
           : "bg-black/40"
-        }`}
+      }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2">
         {/* LOGO */}
         <Link
           href="/"
-          className={`transition-all duration-500 ${scrolled ? "bg-[#053619]" : "bg-transparent"
-            }`}
+          className={`transition-all duration-500 ${
+            scrolled ? "bg-[#053619]" : "bg-transparent"
+          }`}
         >
           <Image src="/logo.webp" alt="Logo" width={200} height={60} />
         </Link>
 
         {/* DESKTOP NAV */}
         <nav
-          className={`hidden md:flex items-center gap-10 font-medium text-[22px] ${scrolled ? "text-black" : "text-white"
-            }`}
+          className={`hidden md:flex items-center gap-10 font-medium text-[22px] ${
+            scrolled ? "text-black" : "text-white"
+          }`}
         >
           <Link href="/">Home</Link>
           <Link href="/about">About Us</Link>
@@ -75,10 +85,11 @@ export default function Navbar() {
                     key={cat.id}
                     href={`/categories/${cat.id}`}
                     onMouseEnter={() => setActiveCategory(cat.id)}
-                    className={`block px-5 py-2 rounded-md transition ${activeCategory === cat.id
+                    className={`block px-5 py-2 rounded-md transition ${
+                      activeCategory === cat.id
                         ? "bg-emerald-600 text-white"
                         : "text-gray-700 hover:bg-gray-100"
-                      }`}
+                    }`}
                   >
                     {cat.name}
                   </Link>
@@ -88,8 +99,10 @@ export default function Navbar() {
               {/* RIGHT */}
               <div className="w-2/3 p-6">
                 <div className="grid grid-cols-3 gap-4 text-black">
-                  {(categories.find((c) => c.id === activeCategory)
-                    ?.products || [])
+                  {(
+                    categories.find((c) => c.id === activeCategory)?.products ||
+                    []
+                  )
                     .slice(0, 3)
                     .map((p) => (
                       <Link
@@ -140,8 +153,21 @@ export default function Navbar() {
             Request a Quote
             <ArrowRight size={18} />
           </motion.button>
+
+          <button
+            onClick={translateToHindi}
+            className=" text-white font-semibold  text-center bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md"
+          >
+            हिंदी में देखें
+          </button>
         </div>
 
+          <button
+        onClick={translateToHindi}
+        className="md:hidden   text-white font-semibold  text-center bg-red-500 hover:bg-red-600 px-3 py-2 rounded-md"
+      >
+        हिंदी में देखें
+      </button>
         {/* MOBILE BUTTON */}
         <button
           className="md:hidden"
@@ -166,16 +192,15 @@ export default function Navbar() {
             {/* PRODUCTS DROPDOWN */}
             <div>
               <button
-                onClick={() =>
-                  setMobileCategoryOpen(!mobileCategoryOpen)
-                }
+                onClick={() => setMobileCategoryOpen(!mobileCategoryOpen)}
                 className="flex items-center justify-between w-full"
               >
-                <span>Our Products</span>
+                <Link href={"/products"} >Our Products</Link>
                 <ChevronDown
                   size={18}
-                  className={`transition-transform ${mobileCategoryOpen ? "rotate-180" : ""
-                    }`}
+                  className={`transition-transform ${
+                    mobileCategoryOpen ? "rotate-180" : ""
+                  }`}
                 />
               </button>
 
@@ -228,14 +253,14 @@ export default function Navbar() {
         </div>
       )}
 
-      {isFormOpen && (
-        <Enquiry
-          isOpen={isFormOpen}
-          onClose={() => setIsFormOpen(false)}
-        />
-      )}
       
+
       <TranslateButton />
     </header>
+    {isFormOpen && (
+        
+        <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
+      )}
+      </>
   );
 }

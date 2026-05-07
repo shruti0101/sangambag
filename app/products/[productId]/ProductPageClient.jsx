@@ -96,8 +96,8 @@ export default function ProductPage({ params }) {
 
       {/* ================= PRODUCT ================= */}
 
-      <section className="px-4 md:px-16 py-14 mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <section className="px-4 md:px-16 pb-5 md:py-10 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-start">
           {/* ===== IMAGE ===== */}
 
           <div className="sticky md:top-24">
@@ -105,7 +105,7 @@ export default function ProductPage({ params }) {
               className="bg-white/60 backdrop-blur-xl "
             >
               <div
-                className="relative w-full h-[600px] overflow-hidden cursor-zoom-in"
+                className="relative w-full h-[400px] md:h-[600px] overflow-hidden cursor-zoom-in"
                 onMouseEnter={() => setIsZoomed(true)}
                 onMouseLeave={() => setIsZoomed(false)}
                 onMouseMove={handleMouseMove}
@@ -221,10 +221,10 @@ transition-all duration-300 font-semibold"
 
 
       {/* ===== DESCRIPTION ===== */}
-      <section style={{ backgroundImage: "url(/bag/descbg.png)" }} className="w-full bg-center p-6 md:p-10 bg-cover">
+      <section style={{ backgroundImage: "url(/bag/descbg.png)" }} className="w-full bg-center p-7 md:p-7 bg-cover">
 
-        <div className=" mt-10 max-w-4xl">
-          <h2 className="text-3xl md:text-5xl font-semibold mb-6">Product Overview</h2>
+        <div className=" mt- max-w-4xl">
+          <h2 className="text-3xl md:text-5xl font-semibold mb-3 md:mb-6">Product Overview</h2>
 
           <div className="space-y-4 text-black leading-relaxed">
             {Array.isArray(product.description) ? (
@@ -277,7 +277,7 @@ transition-all duration-300 font-semibold"
       </section>
 
 
-      <section className="relative w-full overflow-hidden bg-[#07382D] py-18 px-6">
+      <section className="relative w-full overflow-hidden bg-[#07382D] py-8 md:py-18 px-6">
 
         {/* Dotted Grid Background */}
         <div className="absolute inset-0 bg-[radial-gradient(rgba(255,200,0,0.08)_1px,transparent_1px)] [background-size:30px_30px] opacity-20"></div>
@@ -285,7 +285,7 @@ transition-all duration-300 font-semibold"
         {/* Subtle Radial Glow */}
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,200,0,0.08),transparent_70%)]"></div>
 
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-16 text-center">
+        <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-16 text-center">
           {features.map((item, index) => (
             <div key={index} className="flex flex-col items-center">
 

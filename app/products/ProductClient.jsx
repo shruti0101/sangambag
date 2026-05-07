@@ -16,7 +16,7 @@ const Page = () => {
     <div>
       {/* Hero Section */}
       <section
-        style={{ backgroundImage: "url('/bag/bg-other.webp.webp')" }}
+        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
         className="w-full bg-cover bg-center h-[50vh]  md:h-[90vh] relative"
       >
         {/* <div className="absolute inset-0 bg-black opacity-10"></div> */}
@@ -40,7 +40,7 @@ const Page = () => {
                 width={300}
                 height={200}
                 title={product.name} 
-                className="w-full h-75 object-cover"
+                className="w-full h-70   object-contain"
               />
               <div className="p-3">
                 <h2 className="text-lg text-center font-semibold">{product.name}</h2>

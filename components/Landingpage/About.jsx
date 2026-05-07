@@ -60,8 +60,8 @@ const About = () => {
 {/* who we work with section*/}
 
 
-<section className="relative bg-gradient-to-b from-[#f8fafc] to-white py-15  px-4 sm:px-6 overflow-hidden">
-  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-14 items-center">
+<section className="relative bg-gradient-to-b from-[#f8fafc] to-white py-5 md:py-10  px-4 sm:px-6 overflow-hidden">
+  <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-9 md:gap-14 items-center">
 
     {/* LEFT */}
     <div>

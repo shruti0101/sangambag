@@ -35,10 +35,10 @@ export default function ProductCards() {
   return (
     <section
       style={{ backgroundImage: "url(/bag/aboutbg.webp)" }}
-      className="w-full bg-contain bg-[#F8F9F4] bg-no-repeat relative py-10 md:py-12"
+      className="w-full bg-contain bg-[#F8F9F4] bg-no-repeat relative py-7 md:py-12"
     >
       {/* HEADER */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-10 md:mb-14 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 mb-7 md:mb-14 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 md:gap-6">
         <h2 className="text-black text-3xl md:text-[50px] font-bold">
           Our Products
         </h2>
@@ -59,7 +59,7 @@ export default function ProductCards() {
             className="flex flex-col sm:flex-row rounded-[28px] overflow-hidden shadow-sm group"
           >
             {/* LEFT IMAGE */}
-            <div className="relative w-full sm:w-[45%] min-h-[200px] sm:min-h-[260px] bg-[#557C73] overflow-hidden">
+            <div className="relative w-full sm:w-[45%] min-h-[230px]  bg-[#557C73] overflow-hidden">
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.4 }}
@@ -69,13 +69,13 @@ export default function ProductCards() {
                   src={item.image}
                   alt={item.title}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                 />
               </motion.div>
             </div>
 
             {/* RIGHT CONTENT */}
-            <div className="w-full sm:w-[55%] relative px-6 sm:px-10 py-8 sm:py-12 flex flex-col justify-between">
+            <div className="w-full sm:w-[55%] relative px-6 sm:px-10 py-6 md:py-8 flex flex-col justify-between">
               <div>
                 <h3 className="text-xl sm:text-[24px] font-semibold text-[#557C73] mb-3 sm:mb-4 tracking-wide">
                   {item.title}
