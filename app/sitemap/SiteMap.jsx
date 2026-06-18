@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { categories } from "@/Data";
+import { categories,serviceLocations } from "@/Data";
 import { ChevronRight } from "lucide-react";
 
 const pages = [
@@ -62,9 +62,29 @@ const Sitemap = () => {
                   </Link>
                 ))}
               </div>
+
+
+            
             </div>
           ))}
 
+          
+
+        </div>
+        <div className="space-y-2 mt-5">
+          <h1>Service Location</h1>
+            <div className="space-y-2 grid md:grid-cols-4">
+                {serviceLocations.map((city) => (
+                  <Link
+                    key={city.label}
+                    href={city.href}
+                    className="flex items-center gap-2 text-sm text-gray-600 hover:text-red-600 transition"
+                  >
+                    <ChevronRight className="w-3 h-3 text-gray-400" />
+                   Garbage Bag Manufacturer in {city.label}
+                  </Link>
+                ))}
+              </div>
         </div>
       </div>
     </div>
